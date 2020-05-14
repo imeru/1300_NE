@@ -50519,20 +50519,6 @@ OS:Surface,
   -3.6603214285709, 1.31445000000013, 0,  !- X,Y,Z Vertex 4 {m}
   -3.6603214285713, 7.07389999999996, 0;  !- X,Y,Z Vertex 5 {m}
 
-OS:WeatherFile,
-  {ce6c4db3-92fa-4620-8e31-15b3e3cdf7c2}, !- Handle
-  SEATTLE,                                !- City
-  WA,                                     !- State Province Region
-  USA,                                    !- Country
-  TMY2-24233,                             !- Data Source
-  727930,                                 !- WMO Number
-  47.45,                                  !- Latitude {deg}
-  -122.3,                                 !- Longitude {deg}
-  -8,                                     !- Time Zone {hr}
-  122,                                    !- Elevation {m}
-  files/USA_WA_Seattle-Tacoma.727930_TMY2.epw, !- Url
-  F9E1ED0A;                               !- Checksum
-
 OS:SpaceType,
   {7e71b345-8b41-4bdc-bae8-a7c7907f0b0f}, !- Handle
   SEC2015-MF-Shaft,                       !- Name
@@ -54063,4 +54049,18 @@ OS:ZoneCapacitanceMultiplier:ResearchSpecial,
   ,                                       !- Temperature Capacity Multiplier
   ,                                       !- Humidity Capacity Multiplier
   ;                                       !- Carbon Dioxide Capacity Multiplier
+
+OS:WeatherFile,
+  {83023495-2790-49df-a7d1-1a10dd763ecf}, !- Handle
+  SEATTLE,                                !- City
+  WA,                                     !- State Province Region
+  USA,                                    !- Country
+  TMY2-24233,                             !- Data Source
+  727930,                                 !- WMO Number
+  47.45,                                  !- Latitude {deg}
+  -122.3,                                 !- Longitude {deg}
+  -8,                                     !- Time Zone {hr}
+  122,                                    !- Elevation {m}
+  USA_WA_Seattle-Tacoma.727930_TMY2.epw,  !- Url
+  F9E1ED0A;                               !- Checksum
 
