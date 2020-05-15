@@ -52518,7 +52518,7 @@ OS:Schedule:Day,
   ,                                       !- Interpolate to Timestep
   24,                                     !- Hour 1
   0,                                      !- Minute 1
-  0.2;                                    !- Value Until Time 1
+  0;                                      !- Value Until Time 1
 
 OS:Schedule:Ruleset,
   {4c610f85-f646-4acf-b950-82633c1d7749}, !- Handle
@@ -52533,7 +52533,7 @@ OS:Schedule:Day,
   ,                                       !- Interpolate to Timestep
   24,                                     !- Hour 1
   0,                                      !- Minute 1
-  0.05;                                   !- Value Until Time 1
+  0;                                      !- Value Until Time 1
 
 OS:ScheduleTypeLimits,
   {10e0946f-508a-4884-8eb8-322937fb4a8a}, !- Handle
@@ -52591,25 +52591,19 @@ OS:Node,
   {b3c67170-064b-477e-b7ac-3ee15a557a94}, !- Inlet Port
   {6d2e8eac-ec37-4697-822d-3e3c862a693d}; !- Outlet Port
 
-OS:Node,
-  {9e8c7816-cd9d-48e8-9966-2e3e3f991cfb}, !- Handle
-  Node 185,                               !- Name
-  {71fa78c9-d5a4-4e06-a130-aaf69f429405}, !- Inlet Port
-  {61b5bb8e-4e84-4725-bb3e-d2b490db11ed}; !- Outlet Port
-
 OS:Connector:Mixer,
   {ef0d9137-c340-422b-b483-eda7246d0d6b}, !- Handle
   Connector Mixer 1,                      !- Name
   {fc743b9f-b264-4142-a833-af8fc4d6c9bc}, !- Outlet Branch Name
-  {c2e296bd-5b0e-42cf-a650-ee5209453e8d}, !- Inlet Branch Name 1
-  {00be68f4-1c4f-4858-b33c-b83288398335}; !- Inlet Branch Name 2
+  {d52227bd-dc90-47b2-9366-7b437ff9a2a7}, !- Inlet Branch Name 1
+  ;                                       !- Inlet Branch Name 2
 
 OS:Connector:Splitter,
   {2d4f15ac-9f73-47e0-95af-2dae7a097a33}, !- Handle
   Connector Splitter 1,                   !- Name
   {4303627f-9c9f-4661-a8e7-6451346bc66e}, !- Inlet Branch Name
-  {71fa78c9-d5a4-4e06-a130-aaf69f429405}, !- Outlet Branch Name 1
-  {ce02cdb3-4730-4e67-b148-115e5f8d1256}; !- Outlet Branch Name 2
+  {964de3e5-edda-4834-88bb-9fdfd71af0f5}, !- Outlet Branch Name 1
+  ;                                       !- Outlet Branch Name 2
 
 OS:Connection,
   {74f2eee3-7600-4335-afaf-5f969cfd2d41}, !- Handle
@@ -52617,14 +52611,6 @@ OS:Connection,
   {cedb5df0-a4a8-455f-bbed-a047d95f8261}, !- Source Object
   14,                                     !- Outlet Port
   {b8f72dae-5c52-4bc9-a9ac-60f0dcc1e939}, !- Target Object
-  2;                                      !- Inlet Port
-
-OS:Connection,
-  {71fa78c9-d5a4-4e06-a130-aaf69f429405}, !- Handle
-  {373fdaef-1715-4335-8833-e6a80a5f4c6b}, !- Name
-  {2d4f15ac-9f73-47e0-95af-2dae7a097a33}, !- Source Object
-  3,                                      !- Outlet Port
-  {9e8c7816-cd9d-48e8-9966-2e3e3f991cfb}, !- Target Object
   2;                                      !- Inlet Port
 
 OS:Connection,
@@ -52647,25 +52633,19 @@ OS:Node,
   {8167d726-c0dc-4c91-83fc-ca1cbe47053d}, !- Inlet Port
   {46c49f36-092b-454a-88f4-de006b609745}; !- Outlet Port
 
-OS:Node,
-  {cce79745-27dc-4f70-9069-16a39ca61bfa}, !- Handle
-  Node 188,                               !- Name
-  {97300039-b88b-4639-a0c2-e54fdca4c696}, !- Inlet Port
-  {d1836a3a-558a-4362-8c4c-45d095a207be}; !- Outlet Port
-
 OS:Connector:Mixer,
   {56df7d44-433f-4eba-8bdc-6b4f44038a37}, !- Handle
   Connector Mixer 2,                      !- Name
   {92489b79-77c2-40c6-806d-f7bb796570a9}, !- Outlet Branch Name
-  {d47d6c92-725b-4532-be85-e896e5ed65b6}, !- Inlet Branch Name 1
-  {52fcfa12-d05e-4fd3-a5ea-5d052a9f4176}; !- Inlet Branch Name 2
+  {470640b4-dc64-4148-b81c-4b01304a6b00}, !- Inlet Branch Name 1
+  ;                                       !- Inlet Branch Name 2
 
 OS:Connector:Splitter,
   {821d3ef3-925d-41cc-838a-2b62c9e0b27a}, !- Handle
   Connector Splitter 2,                   !- Name
   {af775019-3add-44b4-8e39-2c05a7f95c75}, !- Inlet Branch Name
-  {97300039-b88b-4639-a0c2-e54fdca4c696}, !- Outlet Branch Name 1
-  {e9813834-ff30-43d6-acaf-4dfe85aad47d}; !- Outlet Branch Name 2
+  {0dd8498a-b882-4eb8-8e79-073839e2f757}, !- Outlet Branch Name 1
+  ;                                       !- Outlet Branch Name 2
 
 OS:Connection,
   {1e6bbddf-5f51-4da6-b997-e55cad9940ad}, !- Handle
@@ -52673,14 +52653,6 @@ OS:Connection,
   {cedb5df0-a4a8-455f-bbed-a047d95f8261}, !- Source Object
   17,                                     !- Outlet Port
   {5e44d0a4-5f2b-441f-887e-10e0da43a81c}, !- Target Object
-  2;                                      !- Inlet Port
-
-OS:Connection,
-  {97300039-b88b-4639-a0c2-e54fdca4c696}, !- Handle
-  {d15106be-b9a7-4ada-a4b0-14ac7926483d}, !- Name
-  {821d3ef3-925d-41cc-838a-2b62c9e0b27a}, !- Source Object
-  3,                                      !- Outlet Port
-  {cce79745-27dc-4f70-9069-16a39ca61bfa}, !- Target Object
   2;                                      !- Inlet Port
 
 OS:Connection,
@@ -52727,50 +52699,6 @@ OS:Schedule:Day,
   24,                                     !- Hour 1
   0,                                      !- Minute 1
   54.4444444444444;                       !- Value Until Time 1
-
-OS:DistrictHeating,
-  {6adfb4b2-5585-423a-a0f7-eb448bdecd21}, !- Handle
-  DHW District Heating,                   !- Name
-  {61b5bb8e-4e84-4725-bb3e-d2b490db11ed}, !- Hot Water Inlet Node Name
-  {c76f2441-835e-4b81-bb68-21503a3e4137}, !- Hot Water Outlet Node Name
-  autosize;                               !- Nominal Capacity {W}
-
-OS:Node,
-  {e253b9bb-f644-437b-bb28-748d09149a04}, !- Handle
-  Node 189,                               !- Name
-  {c76f2441-835e-4b81-bb68-21503a3e4137}, !- Inlet Port
-  {c2e296bd-5b0e-42cf-a650-ee5209453e8d}; !- Outlet Port
-
-OS:Connection,
-  {61b5bb8e-4e84-4725-bb3e-d2b490db11ed}, !- Handle
-  {cbf2d102-3f56-4cf6-a302-5f8f924fe4cb}, !- Name
-  {9e8c7816-cd9d-48e8-9966-2e3e3f991cfb}, !- Source Object
-  3,                                      !- Outlet Port
-  {6adfb4b2-5585-423a-a0f7-eb448bdecd21}, !- Target Object
-  2;                                      !- Inlet Port
-
-OS:Connection,
-  {c76f2441-835e-4b81-bb68-21503a3e4137}, !- Handle
-  {7e97d36e-96b9-4a08-aaf6-e040a57cf984}, !- Name
-  {6adfb4b2-5585-423a-a0f7-eb448bdecd21}, !- Source Object
-  3,                                      !- Outlet Port
-  {e253b9bb-f644-437b-bb28-748d09149a04}, !- Target Object
-  2;                                      !- Inlet Port
-
-OS:Connection,
-  {c2e296bd-5b0e-42cf-a650-ee5209453e8d}, !- Handle
-  {1575177f-21f6-4af9-930e-7069b61a8cdb}, !- Name
-  {e253b9bb-f644-437b-bb28-748d09149a04}, !- Source Object
-  3,                                      !- Outlet Port
-  {ef0d9137-c340-422b-b483-eda7246d0d6b}, !- Target Object
-  3;                                      !- Inlet Port
-
-OS:SetpointManager:Scheduled,
-  {20762ef0-aa60-48a8-a322-07aaefa68d3e}, !- Handle
-  DHW Setpoint Manager Warmest,           !- Name
-  Temperature,                            !- Control Variable
-  {f6f73224-67ff-47f3-a65f-dc90efffd67a}, !- Schedule Name
-  {9c71d251-5795-446e-afad-1d286993dc95}; !- Setpoint Node or NodeList Name
 
 OS:Pipe:Adiabatic,
   {6d8b82b7-ae42-4d2d-b609-3d8f78b4a26e}, !- Handle
@@ -52880,92 +52808,6 @@ OS:Connection,
   {70c3f281-6dbb-42a9-9227-3a422ba4f134}, !- Target Object
   2;                                      !- Inlet Port
 
-OS:Pipe:Adiabatic,
-  {d7f17546-d81d-41e9-93cd-2602d2067e01}, !- Handle
-  Pipe Adiabatic 4,                       !- Name
-  {b7c01176-3f08-4891-9020-c6599663c425}, !- Inlet Node Name
-  {c973da4d-a2bc-44f8-b501-b0c26a412deb}; !- Outlet Node Name
-
-OS:Node,
-  {e3c21863-f0b0-4ceb-8798-fb702e1e8de3}, !- Handle
-  Node 187,                               !- Name
-  {ce02cdb3-4730-4e67-b148-115e5f8d1256}, !- Inlet Port
-  {b7c01176-3f08-4891-9020-c6599663c425}; !- Outlet Port
-
-OS:Connection,
-  {ce02cdb3-4730-4e67-b148-115e5f8d1256}, !- Handle
-  {d30eba08-4fb2-425e-a485-49c10d028301}, !- Name
-  {2d4f15ac-9f73-47e0-95af-2dae7a097a33}, !- Source Object
-  4,                                      !- Outlet Port
-  {e3c21863-f0b0-4ceb-8798-fb702e1e8de3}, !- Target Object
-  2;                                      !- Inlet Port
-
-OS:Node,
-  {460135c2-b40c-4e84-9e3a-8ac953d2c95b}, !- Handle
-  Node 190,                               !- Name
-  {c973da4d-a2bc-44f8-b501-b0c26a412deb}, !- Inlet Port
-  {00be68f4-1c4f-4858-b33c-b83288398335}; !- Outlet Port
-
-OS:Connection,
-  {b7c01176-3f08-4891-9020-c6599663c425}, !- Handle
-  {a1d64e6f-51b0-427f-9573-2f2193c90d91}, !- Name
-  {e3c21863-f0b0-4ceb-8798-fb702e1e8de3}, !- Source Object
-  3,                                      !- Outlet Port
-  {d7f17546-d81d-41e9-93cd-2602d2067e01}, !- Target Object
-  2;                                      !- Inlet Port
-
-OS:Connection,
-  {c973da4d-a2bc-44f8-b501-b0c26a412deb}, !- Handle
-  {f7bad7c0-7d28-486d-8884-f9503ac8c4f6}, !- Name
-  {d7f17546-d81d-41e9-93cd-2602d2067e01}, !- Source Object
-  3,                                      !- Outlet Port
-  {460135c2-b40c-4e84-9e3a-8ac953d2c95b}, !- Target Object
-  2;                                      !- Inlet Port
-
-OS:Connection,
-  {00be68f4-1c4f-4858-b33c-b83288398335}, !- Handle
-  {f65e8280-68f4-4383-b6e1-c52576520ffe}, !- Name
-  {460135c2-b40c-4e84-9e3a-8ac953d2c95b}, !- Source Object
-  3,                                      !- Outlet Port
-  {ef0d9137-c340-422b-b483-eda7246d0d6b}, !- Target Object
-  4;                                      !- Inlet Port
-
-OS:Pipe:Adiabatic,
-  {54b20905-24b1-4046-b961-f7832917b9b9}, !- Handle
-  Pipe Adiabatic 5,                       !- Name
-  {d1836a3a-558a-4362-8c4c-45d095a207be}, !- Inlet Node Name
-  {baf1976e-bd83-4f43-ae22-db205a5ac6cf}; !- Outlet Node Name
-
-OS:Node,
-  {66571a00-cf33-4842-8bfd-3eec06a59a1e}, !- Handle
-  Node 191,                               !- Name
-  {baf1976e-bd83-4f43-ae22-db205a5ac6cf}, !- Inlet Port
-  {d47d6c92-725b-4532-be85-e896e5ed65b6}; !- Outlet Port
-
-OS:Connection,
-  {d1836a3a-558a-4362-8c4c-45d095a207be}, !- Handle
-  {70f2f484-21db-4e90-aec3-ab815f9dda8c}, !- Name
-  {cce79745-27dc-4f70-9069-16a39ca61bfa}, !- Source Object
-  3,                                      !- Outlet Port
-  {54b20905-24b1-4046-b961-f7832917b9b9}, !- Target Object
-  2;                                      !- Inlet Port
-
-OS:Connection,
-  {baf1976e-bd83-4f43-ae22-db205a5ac6cf}, !- Handle
-  {fa7aeb2e-d7dd-4e55-8a03-abc44a3fdbcd}, !- Name
-  {54b20905-24b1-4046-b961-f7832917b9b9}, !- Source Object
-  3,                                      !- Outlet Port
-  {66571a00-cf33-4842-8bfd-3eec06a59a1e}, !- Target Object
-  2;                                      !- Inlet Port
-
-OS:Connection,
-  {d47d6c92-725b-4532-be85-e896e5ed65b6}, !- Handle
-  {a147a985-b9d4-437b-ae69-1f7e55c34481}, !- Name
-  {66571a00-cf33-4842-8bfd-3eec06a59a1e}, !- Source Object
-  3,                                      !- Outlet Port
-  {56df7d44-433f-4eba-8bdc-6b4f44038a37}, !- Target Object
-  3;                                      !- Inlet Port
-
 OS:Pump:VariableSpeed,
   {0ba92a5e-75d4-4e73-b84e-ffecbd720fd2}, !- Handle
   DHW Supply Pump,                        !- Name
@@ -53032,22 +52874,14 @@ OS:Connection,
 OS:Node,
   {54686b68-3fd7-41ba-8195-9ea6680f5fa5}, !- Handle
   Node 193,                               !- Name
-  {e9813834-ff30-43d6-acaf-4dfe85aad47d}, !- Inlet Port
+  {0dd8498a-b882-4eb8-8e79-073839e2f757}, !- Inlet Port
   {722b8b56-260c-4a5e-bb6e-e74e27e93bff}; !- Outlet Port
-
-OS:Connection,
-  {e9813834-ff30-43d6-acaf-4dfe85aad47d}, !- Handle
-  {5933aa6d-88ca-4ddf-b51d-2eebf18d16df}, !- Name
-  {821d3ef3-925d-41cc-838a-2b62c9e0b27a}, !- Source Object
-  4,                                      !- Outlet Port
-  {54686b68-3fd7-41ba-8195-9ea6680f5fa5}, !- Target Object
-  2;                                      !- Inlet Port
 
 OS:Node,
   {b82125ec-50bc-4a8c-8e52-c79f2a53f554}, !- Handle
   Node 194,                               !- Name
   {16563944-2c69-4176-b389-bee9ac9e2258}, !- Inlet Port
-  {52fcfa12-d05e-4fd3-a5ea-5d052a9f4176}; !- Outlet Port
+  {470640b4-dc64-4148-b81c-4b01304a6b00}; !- Outlet Port
 
 OS:Connection,
   {722b8b56-260c-4a5e-bb6e-e74e27e93bff}, !- Handle
@@ -53064,14 +52898,6 @@ OS:Connection,
   3,                                      !- Outlet Port
   {b82125ec-50bc-4a8c-8e52-c79f2a53f554}, !- Target Object
   2;                                      !- Inlet Port
-
-OS:Connection,
-  {52fcfa12-d05e-4fd3-a5ea-5d052a9f4176}, !- Handle
-  {1d2fa997-b981-44ef-a428-f407a5d3f0a4}, !- Name
-  {b82125ec-50bc-4a8c-8e52-c79f2a53f554}, !- Source Object
-  3,                                      !- Outlet Port
-  {56df7d44-433f-4eba-8bdc-6b4f44038a37}, !- Target Object
-  4;                                      !- Inlet Port
 
 OS:ThermostatSetpoint:DualSetpoint,
   {08ba5e39-86f0-4f7d-b373-66f0c77e5679}, !- Handle
@@ -59414,4 +59240,197 @@ OS:Lights,
   1,                                      !- Fraction Replaceable
   ,                                       !- Multiplier
   General;                                !- End-Use Subcategory
+
+OS:Node,
+  {a84fa055-9add-4617-b0a8-9afc40c4c4a7}, !- Handle
+  Node 185,                               !- Name
+  {964de3e5-edda-4834-88bb-9fdfd71af0f5}, !- Inlet Port
+  {2994a3d6-7bed-48ff-a15c-a0ba735f84fc}; !- Outlet Port
+
+OS:Connection,
+  {964de3e5-edda-4834-88bb-9fdfd71af0f5}, !- Handle
+  {38716500-bf35-4dcf-b7a4-a89a90ac30c9}, !- Name
+  {2d4f15ac-9f73-47e0-95af-2dae7a097a33}, !- Source Object
+  3,                                      !- Outlet Port
+  {a84fa055-9add-4617-b0a8-9afc40c4c4a7}, !- Target Object
+  2;                                      !- Inlet Port
+
+OS:WaterHeater:Mixed,
+  {635104e5-1839-4edc-867f-949d4d0bbfed}, !- Handle
+  Water Heater,                           !- Name
+  0.3785,                                 !- Tank Volume {m3}
+  {5c8ec944-99f1-4a00-86ef-d4c1d3d1e3eb}, !- Setpoint Temperature Schedule Name
+  2,                                      !- Deadband Temperature Difference {deltaC}
+  82.22,                                  !- Maximum Temperature Limit {C}
+  Cycle,                                  !- Heater Control Type
+  845000,                                 !- Heater Maximum Capacity {W}
+  ,                                       !- Heater Minimum Capacity {W}
+  ,                                       !- Heater Ignition Minimum Flow Rate {m3/s}
+  ,                                       !- Heater Ignition Delay {s}
+  Electricity,                            !- Heater Fuel Type
+  1,                                      !- Heater Thermal Efficiency
+  ,                                       !- Part Load Factor Curve Name
+  20,                                     !- Off Cycle Parasitic Fuel Consumption Rate {W}
+  Electricity,                            !- Off Cycle Parasitic Fuel Type
+  1,                                      !- Off Cycle Parasitic Heat Fraction to Tank
+  ,                                       !- On Cycle Parasitic Fuel Consumption Rate {W}
+  NaturalGas,                             !- On Cycle Parasitic Fuel Type
+  ,                                       !- On Cycle Parasitic Heat Fraction to Tank
+  Schedule,                               !- Ambient Temperature Indicator
+  {73dbd4d1-90d5-4b93-94ca-957add75ad2a}, !- Ambient Temperature Schedule Name
+  ,                                       !- Ambient Temperature Thermal Zone Name
+  ,                                       !- Ambient Temperature Outdoor Air Node Name
+  6,                                      !- Off Cycle Loss Coefficient to Ambient Temperature {W/K}
+  ,                                       !- Off Cycle Loss Fraction to Thermal Zone
+  6,                                      !- On Cycle Loss Coefficient to Ambient Temperature {W/K}
+  ,                                       !- On Cycle Loss Fraction to Thermal Zone
+  ,                                       !- Peak Use Flow Rate {m3/s}
+  ,                                       !- Use Flow Rate Fraction Schedule Name
+  ,                                       !- Cold Water Supply Temperature Schedule Name
+  {2994a3d6-7bed-48ff-a15c-a0ba735f84fc}, !- Use Side Inlet Node Name
+  {692227f9-fac6-4c54-adef-d5d7477ebfe6}, !- Use Side Outlet Node Name
+  1,                                      !- Use Side Effectiveness
+  ,                                       !- Source Side Inlet Node Name
+  ,                                       !- Source Side Outlet Node Name
+  1,                                      !- Source Side Effectiveness
+  autosize,                               !- Use Side Design Flow Rate {m3/s}
+  autosize,                               !- Source Side Design Flow Rate {m3/s}
+  1.5,                                    !- Indirect Water Heating Recovery Time {hr}
+  IndirectHeatPrimarySetpoint,            !- Source Side Flow Control Mode
+  ,                                       !- Indirect Alternate Setpoint Temperature Schedule Name
+  General;                                !- End-Use Subcategory
+
+OS:Schedule:Ruleset,
+  {5c8ec944-99f1-4a00-86ef-d4c1d3d1e3eb}, ! Handle
+  Water Heater Setpoint Temperature,      ! Name
+  {feca2747-f085-4fce-a59a-c0075199ac05}, ! Schedule Type Limits Name
+  {a2fd54b4-d1e0-4dd1-a91a-2781276dd55d}; ! Default Day Schedule Name
+
+OS:Schedule:Day,
+  {a2fd54b4-d1e0-4dd1-a91a-2781276dd55d}, ! Handle
+  Water Heater Setpoint Temperature Default, ! Name
+  {feca2747-f085-4fce-a59a-c0075199ac05}, ! Schedule Type Limits Name
+  ,                                       ! Interpolate to Timestep
+  24,                                     ! Hour 1
+  0,                                      ! Minute 1
+  60;                                     ! Value Until Time 1
+
+OS:Schedule:Ruleset,
+  {73dbd4d1-90d5-4b93-94ca-957add75ad2a}, ! Handle
+  Water Heater Ambient Temperature,       ! Name
+  {feca2747-f085-4fce-a59a-c0075199ac05}, ! Schedule Type Limits Name
+  {67fb3020-8091-428c-8def-e1f29f4c7856}; ! Default Day Schedule Name
+
+OS:Schedule:Day,
+  {67fb3020-8091-428c-8def-e1f29f4c7856}, ! Handle
+  Water Heater Ambient Temperature Default, ! Name
+  {feca2747-f085-4fce-a59a-c0075199ac05}, ! Schedule Type Limits Name
+  ,                                       ! Interpolate to Timestep
+  24,                                     ! Hour 1
+  0,                                      ! Minute 1
+  22;                                     ! Value Until Time 1
+
+OS:ScheduleTypeLimits,
+  {feca2747-f085-4fce-a59a-c0075199ac05}, !- Handle
+  Temperature 64,                         !- Name
+  ,                                       !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  Temperature;                            !- Unit Type
+
+OS:Node,
+  {a004b03b-814b-4f6a-b5b7-e25e10bb1489}, !- Handle
+  Node 187,                               !- Name
+  {692227f9-fac6-4c54-adef-d5d7477ebfe6}, !- Inlet Port
+  {d52227bd-dc90-47b2-9366-7b437ff9a2a7}; !- Outlet Port
+
+OS:Connection,
+  {2994a3d6-7bed-48ff-a15c-a0ba735f84fc}, !- Handle
+  {8956bfb3-38af-4a0b-a020-1ab43a480621}, !- Name
+  {a84fa055-9add-4617-b0a8-9afc40c4c4a7}, !- Source Object
+  3,                                      !- Outlet Port
+  {635104e5-1839-4edc-867f-949d4d0bbfed}, !- Target Object
+  31;                                     !- Inlet Port
+
+OS:Connection,
+  {692227f9-fac6-4c54-adef-d5d7477ebfe6}, !- Handle
+  {7fe73fe3-94da-4273-9074-c4f70b86eb02}, !- Name
+  {635104e5-1839-4edc-867f-949d4d0bbfed}, !- Source Object
+  32,                                     !- Outlet Port
+  {a004b03b-814b-4f6a-b5b7-e25e10bb1489}, !- Target Object
+  2;                                      !- Inlet Port
+
+OS:Connection,
+  {d52227bd-dc90-47b2-9366-7b437ff9a2a7}, !- Handle
+  {b60c5873-4254-461c-a6c2-6e178b78551b}, !- Name
+  {a004b03b-814b-4f6a-b5b7-e25e10bb1489}, !- Source Object
+  3,                                      !- Outlet Port
+  {ef0d9137-c340-422b-b483-eda7246d0d6b}, !- Target Object
+  3;                                      !- Inlet Port
+
+OS:Connection,
+  {0dd8498a-b882-4eb8-8e79-073839e2f757}, !- Handle
+  {1cb1ebd5-f0a7-439c-873f-97522ffc44a9}, !- Name
+  {821d3ef3-925d-41cc-838a-2b62c9e0b27a}, !- Source Object
+  3,                                      !- Outlet Port
+  {54686b68-3fd7-41ba-8195-9ea6680f5fa5}, !- Target Object
+  2;                                      !- Inlet Port
+
+OS:Connection,
+  {470640b4-dc64-4148-b81c-4b01304a6b00}, !- Handle
+  {268bd0bf-6a81-4913-9459-0c9ebc120bcc}, !- Name
+  {b82125ec-50bc-4a8c-8e52-c79f2a53f554}, !- Source Object
+  3,                                      !- Outlet Port
+  {56df7d44-433f-4eba-8bdc-6b4f44038a37}, !- Target Object
+  3;                                      !- Inlet Port
+
+OS:SetpointManager:Scheduled,
+  {a0074976-7096-4d7a-91a3-c1b43508a600}, ! Handle
+  Scheduled HW Temp,                      ! Name
+  Temperature,                            ! Control Variable
+  {41bb8573-1099-45db-95af-262a00c92440}, ! Schedule Name
+  {9c71d251-5795-446e-afad-1d286993dc95}; ! Setpoint Node or NodeList Name
+
+OS:Schedule:Ruleset,
+  {41bb8573-1099-45db-95af-262a00c92440}, ! Handle
+  Hot Water Temperature,                  ! Name
+  {bac95b65-6785-42ff-a162-5d2d95811000}, ! Schedule Type Limits Name
+  {a8ae1692-0535-4f6a-8a87-502f70deb9c8}, ! Default Day Schedule Name
+  {46b5a84b-ea1a-4f14-acf4-4a42a9adec34}, ! Summer Design Day Schedule Name
+  {0c7e7bbb-2901-4940-a978-184c662d3e8f}; ! Winter Design Day Schedule Name
+
+OS:Schedule:Day,
+  {a8ae1692-0535-4f6a-8a87-502f70deb9c8}, ! Handle
+  Hot Water Temperature Default,          ! Name
+  {bac95b65-6785-42ff-a162-5d2d95811000}, ! Schedule Type Limits Name
+  ,                                       ! Interpolate to Timestep
+  24,                                     ! Hour 1
+  0,                                      ! Minute 1
+  67;                                     ! Value Until Time 1
+
+OS:Schedule:Day,
+  {46b5a84b-ea1a-4f14-acf4-4a42a9adec34}, ! Handle
+  Hot Water Temperature Summer Design Day, ! Name
+  {bac95b65-6785-42ff-a162-5d2d95811000}, ! Schedule Type Limits Name
+  ,                                       ! Interpolate to Timestep
+  24,                                     ! Hour 1
+  0,                                      ! Minute 1
+  67;                                     ! Value Until Time 1
+
+OS:Schedule:Day,
+  {0c7e7bbb-2901-4940-a978-184c662d3e8f}, ! Handle
+  Hot Water Temperature Winter Design Day, ! Name
+  {bac95b65-6785-42ff-a162-5d2d95811000}, ! Schedule Type Limits Name
+  ,                                       ! Interpolate to Timestep
+  24,                                     ! Hour 1
+  0,                                      ! Minute 1
+  67;                                     ! Value Until Time 1
+
+OS:ScheduleTypeLimits,
+  {bac95b65-6785-42ff-a162-5d2d95811000}, !- Handle
+  Temperature 65,                         !- Name
+  ,                                       !- Lower Limit Value
+  ,                                       !- Upper Limit Value
+  Continuous,                             !- Numeric Type
+  Temperature;                            !- Unit Type
 
