@@ -20456,7 +20456,7 @@ OS:SpaceInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Space Floor Area {m3/s-m2}
-  0.000254,                               !- Flow per Exterior Surface Area {m3/s-m2}
+  0.001524,                               !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   ,                                       !- Constant Term Coefficient
   ,                                       !- Temperature Term Coefficient
@@ -52210,7 +52210,7 @@ OS:SpaceInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Space Floor Area {m3/s-m2}
-  0.000254,                               !- Flow per Exterior Surface Area {m3/s-m2}
+  0.001524,                               !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   ,                                       !- Constant Term Coefficient
   ,                                       !- Temperature Term Coefficient
@@ -52225,7 +52225,7 @@ OS:SpaceInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Space Floor Area {m3/s-m2}
-  0.000254,                               !- Flow per Exterior Surface Area {m3/s-m2}
+  0.001524,                               !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   ,                                       !- Constant Term Coefficient
   ,                                       !- Temperature Term Coefficient
@@ -52240,7 +52240,7 @@ OS:SpaceInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Space Floor Area {m3/s-m2}
-  0.000254,                               !- Flow per Exterior Surface Area {m3/s-m2}
+  0.001524,                               !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   ,                                       !- Constant Term Coefficient
   ,                                       !- Temperature Term Coefficient
@@ -52255,7 +52255,7 @@ OS:SpaceInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Space Floor Area {m3/s-m2}
-  0.000254,                               !- Flow per Exterior Surface Area {m3/s-m2}
+  0.001524,                               !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   ,                                       !- Constant Term Coefficient
   ,                                       !- Temperature Term Coefficient
@@ -52270,7 +52270,7 @@ OS:SpaceInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Space Floor Area {m3/s-m2}
-  0.00056896,                             !- Flow per Exterior Surface Area {m3/s-m2}
+  0.001524,                               !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   ,                                       !- Constant Term Coefficient
   ,                                       !- Temperature Term Coefficient
@@ -52285,7 +52285,7 @@ OS:SpaceInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Space Floor Area {m3/s-m2}
-  0.000254,                               !- Flow per Exterior Surface Area {m3/s-m2}
+  0.001524,                               !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   ,                                       !- Constant Term Coefficient
   ,                                       !- Temperature Term Coefficient
@@ -52300,7 +52300,7 @@ OS:SpaceInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Space Floor Area {m3/s-m2}
-  0.000254,                               !- Flow per Exterior Surface Area {m3/s-m2}
+  0.001524,                               !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   ,                                       !- Constant Term Coefficient
   ,                                       !- Temperature Term Coefficient
@@ -52315,7 +52315,7 @@ OS:SpaceInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Space Floor Area {m3/s-m2}
-  0.000254,                               !- Flow per Exterior Surface Area {m3/s-m2}
+  0.001524,                               !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   ,                                       !- Constant Term Coefficient
   ,                                       !- Temperature Term Coefficient
@@ -52330,7 +52330,7 @@ OS:SpaceInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Space Floor Area {m3/s-m2}
-  0.000254,                               !- Flow per Exterior Surface Area {m3/s-m2}
+  0.001524,                               !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   ,                                       !- Constant Term Coefficient
   ,                                       !- Temperature Term Coefficient
@@ -52345,7 +52345,7 @@ OS:SpaceInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Space Floor Area {m3/s-m2}
-  0.000254,                               !- Flow per Exterior Surface Area {m3/s-m2}
+  0.001524,                               !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   ,                                       !- Constant Term Coefficient
   ,                                       !- Temperature Term Coefficient
@@ -52360,7 +52360,7 @@ OS:SpaceInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Space Floor Area {m3/s-m2}
-  0.000254,                               !- Flow per Exterior Surface Area {m3/s-m2}
+  0.001524,                               !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   ,                                       !- Constant Term Coefficient
   ,                                       !- Temperature Term Coefficient
@@ -54062,7 +54062,7 @@ OS:WeatherFile,
   -122.3,                                 !- Longitude {deg}
   -8,                                     !- Time Zone {hr}
   122,                                    !- Elevation {m}
-  USA_WA_Seattle-Tacoma.727930_TMY2.epw,  !- Url
+  files/USA_WA_Seattle-Tacoma.727930_TMY2.epw, !- Url
   F9E1ED0A;                               !- Checksum
 
 OS:Rendering:Color,
