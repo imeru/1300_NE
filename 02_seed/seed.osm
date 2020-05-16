@@ -52128,7 +52128,7 @@ OS:OtherEquipment:Definition,
   {d4168e08-c2a4-44c1-b35e-3f10c95d524c}, !- Handle
   Elevator Equipment Heat,                !- Name
   EquipmentLevel,                         !- Design Level Calculation Method
-  2593.09282888382,                       !- Design Level {W}
+  0,                                      !- Design Level {W}
   ,                                       !- Watts per Space Floor Area {W/m2}
   ;                                       !- Watts per Person {W/Person}
 
@@ -52136,7 +52136,7 @@ OS:OtherEquipment:Definition,
   {1c064c15-e2e7-478e-85d0-33340eaf5168}, !- Handle
   Transformer Heat,                       !- Name
   EquipmentLevel,                         !- Design Level Calculation Method
-  9002.26406248015,                       !- Design Level {W}
+  0,                                      !- Design Level {W}
   ,                                       !- Watts per Space Floor Area {W/m2}
   ;                                       !- Watts per Person {W/Person}
 
