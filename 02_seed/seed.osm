@@ -52485,13 +52485,13 @@ OS:WaterUse:Equipment,
   Water Fixture,                          ! Name
   {4166f1c2-1680-4745-8317-110256e01628}, ! Water Use Equipment Definition Name
   {3d3faf46-dae7-45da-ab76-2970f1f34146}, !- Space Name
-  {b2889ed8-ba90-44b8-9d0e-f38d37f1ee00}; !- Flow Rate Fraction Schedule Name
+  {4b909a1a-5971-42ce-aec0-d95cc6b381e6}; !- Flow Rate Fraction Schedule Name
 
 OS:WaterUse:Equipment:Definition,
   {4166f1c2-1680-4745-8317-110256e01628}, ! Handle
   Water Fixture Definition,               ! Name
   ,                                       ! End-Use Subcategory
-  0.315450981997488,                      ! Peak Flow Rate {m3/s}
+  0.00094540659304647,                    ! Peak Flow Rate {m3/s}
   {b61eb74f-0654-459d-a448-ce13b751c8a8}, !- Target Temperature Schedule Name
   {d93d7137-2061-4dad-959e-f33222903677}, !- Sensible Fraction Schedule Name
   {4c610f85-f646-4acf-b950-82633c1d7749}; !- Latent Fraction Schedule Name
@@ -59332,9 +59332,9 @@ OS:Schedule:Day,
   Water Heater Ambient Temperature Default, ! Name
   {feca2747-f085-4fce-a59a-c0075199ac05}, ! Schedule Type Limits Name
   ,                                       ! Interpolate to Timestep
-  24,                                     ! Hour 1
-  0,                                      ! Minute 1
-  22;                                     ! Value Until Time 1
+  24,                                     !- Hour 1
+  0,                                      !- Minute 1
+  19.7222222222222;                       !- Value Until Time 1
 
 OS:ScheduleTypeLimits,
   {feca2747-f085-4fce-a59a-c0075199ac05}, !- Handle
@@ -61925,4 +61925,85 @@ OS:Rendering:Color,
   65,                                     !- Rendering Red Value
   225,                                    !- Rendering Green Value
   105;                                    !- Rendering Blue Value
+
+OS:Schedule:Ruleset,
+  {4b909a1a-5971-42ce-aec0-d95cc6b381e6}, !- Handle
+  SEC2015-MF-Residential_DHW,             !- Name
+  {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
+  {4bf391fa-d4e3-4c5c-bb89-0e953483cdc0}; !- Default Day Schedule Name
+
+OS:Schedule:Day,
+  {4bf391fa-d4e3-4c5c-bb89-0e953483cdc0}, !- Handle
+  Schedule Day 20,                        !- Name
+  {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  1,                                      !- Hour 1
+  0,                                      !- Minute 1
+  0.08,                                   !- Value Until Time 1
+  2,                                      !- Hour 2
+  0,                                      !- Minute 2
+  0.04,                                   !- Value Until Time 2
+  4,                                      !- Hour 3
+  0,                                      !- Minute 3
+  0.01,                                   !- Value Until Time 3
+  5,                                      !- Hour 4
+  0,                                      !- Minute 4
+  0.04,                                   !- Value Until Time 4
+  6,                                      !- Hour 5
+  0,                                      !- Minute 5
+  0.27,                                   !- Value Until Time 5
+  7,                                      !- Hour 6
+  0,                                      !- Minute 6
+  0.94,                                   !- Value Until Time 6
+  8,                                      !- Hour 7
+  0,                                      !- Minute 7
+  1,                                      !- Value Until Time 7
+  9,                                      !- Hour 8
+  0,                                      !- Minute 8
+  0.96,                                   !- Value Until Time 8
+  10,                                     !- Hour 9
+  0,                                      !- Minute 9
+  0.84,                                   !- Value Until Time 9
+  11,                                     !- Hour 10
+  0,                                      !- Minute 10
+  0.76,                                   !- Value Until Time 10
+  12,                                     !- Hour 11
+  0,                                      !- Minute 11
+  0.61,                                   !- Value Until Time 11
+  13,                                     !- Hour 12
+  0,                                      !- Minute 12
+  0.53,                                   !- Value Until Time 12
+  14,                                     !- Hour 13
+  0,                                      !- Minute 13
+  0.47,                                   !- Value Until Time 13
+  15,                                     !- Hour 14
+  0,                                      !- Minute 14
+  0.41,                                   !- Value Until Time 14
+  16,                                     !- Hour 15
+  0,                                      !- Minute 15
+  0.47,                                   !- Value Until Time 15
+  17,                                     !- Hour 16
+  0,                                      !- Minute 16
+  0.55,                                   !- Value Until Time 16
+  18,                                     !- Hour 17
+  0,                                      !- Minute 17
+  0.73,                                   !- Value Until Time 17
+  19,                                     !- Hour 18
+  0,                                      !- Minute 18
+  0.86,                                   !- Value Until Time 18
+  20,                                     !- Hour 19
+  0,                                      !- Minute 19
+  0.82,                                   !- Value Until Time 19
+  21,                                     !- Hour 20
+  0,                                      !- Minute 20
+  0.75,                                   !- Value Until Time 20
+  22,                                     !- Hour 21
+  0,                                      !- Minute 21
+  0.61,                                   !- Value Until Time 21
+  23,                                     !- Hour 22
+  0,                                      !- Minute 22
+  0.53,                                   !- Value Until Time 22
+  24,                                     !- Hour 23
+  0,                                      !- Minute 23
+  0.29;                                   !- Value Until Time 23
 
