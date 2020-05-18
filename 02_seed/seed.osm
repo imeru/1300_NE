@@ -53883,20 +53883,6 @@ OS:ZoneCapacitanceMultiplier:ResearchSpecial,
   ,                                       !- Humidity Capacity Multiplier
   ;                                       !- Carbon Dioxide Capacity Multiplier
 
-OS:WeatherFile,
-  {83023495-2790-49df-a7d1-1a10dd763ecf}, !- Handle
-  SEATTLE,                                !- City
-  WA,                                     !- State Province Region
-  USA,                                    !- Country
-  TMY2-24233,                             !- Data Source
-  727930,                                 !- WMO Number
-  47.45,                                  !- Latitude {deg}
-  -122.3,                                 !- Longitude {deg}
-  -8,                                     !- Time Zone {hr}
-  122,                                    !- Elevation {m}
-  files/USA_WA_Seattle-Tacoma.727930_TMY2.epw, !- Url
-  F9E1ED0A;                               !- Checksum
-
 OS:Rendering:Color,
   {99f5c746-b425-4290-a4b1-22f0b96908a5}, !- Handle
   Rendering Color 303,                    !- Name
@@ -59460,8 +59446,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {2d806e92-b66f-4009-912b-20ad6fb77000}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {cf9b3d0a-3497-4d8f-9f18-7df1397e58b9}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {d039e1b4-f826-43b2-8b3a-d3ac69dca88f}, !- Handle
@@ -59545,8 +59531,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {70c73fbb-3e0d-4607-b451-c3a6190fe8ad}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {5145e470-86a7-48e8-b64c-e5a6fc1a08ce}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {77333e97-917f-4bc5-b0ec-c2fb634c38f9}, !- Handle
@@ -59630,8 +59616,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {70feb1a8-013f-4cd1-8417-4e134748e4a2}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {ea15dfa6-62be-47b9-9efe-6e7047bb06e8}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {d8178aa6-1ff7-460f-8a08-ad53bbc8607a}, !- Handle
@@ -59715,8 +59701,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {66580522-fe6d-4ed8-b780-698456791e8d}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {4c0c5d1f-50c1-4f56-b855-6e919c970628}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {21fb574c-7f57-4b96-a4fa-eecc6b3bc373}, !- Handle
@@ -59800,8 +59786,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {3443404d-40af-448c-a9b8-1f3e3183d005}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {5f8167f2-ce86-4b67-b59f-83f2ec875238}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {e4cf214a-f46d-4fc3-a99c-ea61edaa30bc}, !- Handle
@@ -59885,8 +59871,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {c58bb84e-8fe7-4f51-b929-577d42af3b09}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {b8acb3c0-b830-43e2-b189-d1a4a97854c7}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {8f75d19f-b872-4e6b-92bb-514bc23cd773}, !- Handle
@@ -59970,8 +59956,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {9d786398-dff3-4b70-ab2f-87f8859b7dcb}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {a5d88db9-bc04-44d7-b891-9bf57b3db303}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {14212478-cc01-4d8e-b45f-40386208d88c}, !- Handle
@@ -60055,8 +60041,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {0616e761-c2c5-4c74-86ec-46e78b962599}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {8022f0b3-df03-43f7-8b46-04213fb401bb}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {59b60a51-571b-4a17-b50a-72b2df98fb2f}, !- Handle
@@ -60140,8 +60126,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {133cf3f8-8f97-4258-a5c7-75da04f1d3cd}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {6a610671-4815-4671-bbc3-badcf90d9900}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {f3099bce-ab91-4763-8ab2-a8a0a289a3d0}, !- Handle
@@ -60225,8 +60211,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {1e7455f7-4cd2-4ffd-a09b-dfbd8e80f807}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {bb64b3f7-e15c-4077-9cb3-915321efefdd}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {180b6491-dfd7-42d3-bb91-067ac5100590}, !- Handle
@@ -60310,8 +60296,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {2de262c4-b25b-4a7b-957a-365963666e34}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {8edcc7dd-6f12-448c-a13f-b3cd259029e1}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {733cdcfe-8e5c-43d9-ada3-8fc034deb46c}, !- Handle
@@ -60395,8 +60381,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {f0d9b69b-b4ac-49a3-ba54-7aef5b95f4ea}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {0c51ccc0-5f24-4c15-b4a6-33a8e0d9c197}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {ae8e6bc7-483e-4548-8335-45c29906e3e0}, !- Handle
@@ -60480,8 +60466,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {fa49d147-51c9-41ab-a4d5-015fa3a3cba0}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {5f7c4811-8959-4317-9495-ecd90c09ee3a}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {b578e30c-a7fa-4337-8817-b0edab48db83}, !- Handle
@@ -60565,8 +60551,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {e6b46868-fea4-4b82-9f65-e1bde840b6ff}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {26ba1d68-04e4-4e16-b4fa-0a415fc2f969}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {100b5d32-268f-40b0-ba72-c3d85a868409}, !- Handle
@@ -60650,8 +60636,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {59ccd507-6f68-4dea-bf10-ae2b51b37eb7}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {59b02eeb-5b3f-4bfc-a902-29b26e7f3bbe}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {424ce4a3-630e-4fa7-8dca-e63d7fc40e2e}, !- Handle
@@ -60735,8 +60721,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {798c5b91-72a3-4045-a3d5-199f1ef02542}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {2f1439a2-3a27-4fdc-b8c3-f12f7167bce2}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {9455c2c6-3e23-4b0f-807c-f7ff72c7a07c}, !- Handle
@@ -60820,8 +60806,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {cad6a88d-d127-4dd5-b754-ebdb2729391d}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {33570309-0cb7-41bd-8993-3fc89c0294e1}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {0927c528-13ca-4190-881b-619ce24a51e1}, !- Handle
@@ -60905,8 +60891,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {a5df76df-afba-4ad2-a8f8-2da71f0ea544}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No,                                     !- Use Ideal Air Loads
+  {e86f3686-97fa-43e9-a432-fe837529fa26}, !- Thermostat Name
+  Yes,                                    !- Use Ideal Air Loads
   ;                                       !- Humidistat Name
 
 OS:Node,
@@ -60991,8 +60977,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {47a1cb1f-28e3-415a-9de4-b31d619b030c}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {fcd9d61a-43b3-41e7-bc07-c88a0092f109}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {0088429b-cc23-459c-99a4-34cd47dc00ba}, !- Handle
@@ -61076,8 +61062,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {1a298eea-92d5-4a92-9833-9b0237c54efe}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No,                                     !- Use Ideal Air Loads
+  {214181db-6763-4dbe-ab16-94bcc89a4088}, !- Thermostat Name
+  Yes,                                    !- Use Ideal Air Loads
   ;                                       !- Humidistat Name
 
 OS:Node,
@@ -61162,8 +61148,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {4c306869-275a-4f7d-955c-bbc9403226e2}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {bfae0dc9-b573-48f8-9a16-e5f826144d1f}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {833770d3-7daa-45f3-941c-d8c72eaa41bb}, !- Handle
@@ -61247,8 +61233,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {7c4cd38b-e813-430f-92a3-2154f12e21f3}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {3e044c7a-432e-4a6a-b348-d4b10e631145}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {506a1262-c39b-4487-8bc3-21a23ab25a18}, !- Handle
@@ -61332,8 +61318,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {4a8c00e6-aac3-4bd4-aa75-09ff810b0ac8}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {019ddc73-0ae6-4051-85b2-41611209e2bf}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {8b5a5c6b-c0b2-44d4-a61b-7416657159f4}, !- Handle
@@ -61417,8 +61403,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {01151fab-999f-40ec-ab2b-02d523a69b34}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {24d1862a-d2f7-4461-b8e0-6e9252bbce7e}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {091b313a-4183-443f-96b9-8186d93a4594}, !- Handle
@@ -61502,8 +61488,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {23404ae6-ed15-4850-b6f7-2241187f5dd7}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {943e0975-4405-46d5-a6af-5a5a414deaa3}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {4fdd8097-e0c1-4cae-947c-23eb979ca91a}, !- Handle
@@ -61587,8 +61573,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {a72610b4-dd67-4952-a9ac-d3e95f203f74}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {d9ebade7-ef58-429b-a3fe-73a9a1578f76}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {7d48569a-fe53-4ab0-99f7-fa8116890243}, !- Handle
@@ -61672,8 +61658,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {d4d4bfec-5dcb-4164-8ebd-24e515c12678}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {d74acca3-b21a-4c2e-ba21-8634f22e82d5}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {ce4bd397-fb39-4381-b3be-4f2f89ea545c}, !- Handle
@@ -62006,4 +61992,180 @@ OS:Schedule:Day,
   24,                                     !- Hour 23
   0,                                      !- Minute 23
   0.29;                                   !- Value Until Time 23
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {8022f0b3-df03-43f7-8b46-04213fb401bb}, !- Handle
+  Thermostat Setpoint Dual Setpoint 156,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {ea15dfa6-62be-47b9-9efe-6e7047bb06e8}, !- Handle
+  Thermostat Setpoint Dual Setpoint 157,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {b8acb3c0-b830-43e2-b189-d1a4a97854c7}, !- Handle
+  Thermostat Setpoint Dual Setpoint 158,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {cf9b3d0a-3497-4d8f-9f18-7df1397e58b9}, !- Handle
+  Thermostat Setpoint Dual Setpoint 159,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {5f7c4811-8959-4317-9495-ecd90c09ee3a}, !- Handle
+  Thermostat Setpoint Dual Setpoint 160,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {26ba1d68-04e4-4e16-b4fa-0a415fc2f969}, !- Handle
+  Thermostat Setpoint Dual Setpoint 161,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {59b02eeb-5b3f-4bfc-a902-29b26e7f3bbe}, !- Handle
+  Thermostat Setpoint Dual Setpoint 162,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {0c51ccc0-5f24-4c15-b4a6-33a8e0d9c197}, !- Handle
+  Thermostat Setpoint Dual Setpoint 163,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {5145e470-86a7-48e8-b64c-e5a6fc1a08ce}, !- Handle
+  Thermostat Setpoint Dual Setpoint 164,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {4c0c5d1f-50c1-4f56-b855-6e919c970628}, !- Handle
+  Thermostat Setpoint Dual Setpoint 165,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {5f8167f2-ce86-4b67-b59f-83f2ec875238}, !- Handle
+  Thermostat Setpoint Dual Setpoint 166,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {6a610671-4815-4671-bbc3-badcf90d9900}, !- Handle
+  Thermostat Setpoint Dual Setpoint 167,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {bb64b3f7-e15c-4077-9cb3-915321efefdd}, !- Handle
+  Thermostat Setpoint Dual Setpoint 168,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {8edcc7dd-6f12-448c-a13f-b3cd259029e1}, !- Handle
+  Thermostat Setpoint Dual Setpoint 169,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {a5d88db9-bc04-44d7-b891-9bf57b3db303}, !- Handle
+  Thermostat Setpoint Dual Setpoint 170,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {3e044c7a-432e-4a6a-b348-d4b10e631145}, !- Handle
+  Thermostat Setpoint Dual Setpoint 171,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {943e0975-4405-46d5-a6af-5a5a414deaa3}, !- Handle
+  Thermostat Setpoint Dual Setpoint 172,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {bfae0dc9-b573-48f8-9a16-e5f826144d1f}, !- Handle
+  Thermostat Setpoint Dual Setpoint 173,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {e86f3686-97fa-43e9-a432-fe837529fa26}, !- Handle
+  Thermostat Setpoint Dual Setpoint 174,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {24d1862a-d2f7-4461-b8e0-6e9252bbce7e}, !- Handle
+  Thermostat Setpoint Dual Setpoint 175,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {d74acca3-b21a-4c2e-ba21-8634f22e82d5}, !- Handle
+  Thermostat Setpoint Dual Setpoint 176,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {d9ebade7-ef58-429b-a3fe-73a9a1578f76}, !- Handle
+  Thermostat Setpoint Dual Setpoint 177,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {2f1439a2-3a27-4fdc-b8c3-f12f7167bce2}, !- Handle
+  Thermostat Setpoint Dual Setpoint 178,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {019ddc73-0ae6-4051-85b2-41611209e2bf}, !- Handle
+  Thermostat Setpoint Dual Setpoint 179,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {fcd9d61a-43b3-41e7-bc07-c88a0092f109}, !- Handle
+  Thermostat Setpoint Dual Setpoint 180,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {33570309-0cb7-41bd-8993-3fc89c0294e1}, !- Handle
+  Thermostat Setpoint Dual Setpoint 181,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {214181db-6763-4dbe-ab16-94bcc89a4088}, !- Handle
+  Thermostat Setpoint Dual Setpoint 182,  !- Name
+  {4833258e-ebf5-48c4-9ab1-ea023887175e}, !- Heating Setpoint Temperature Schedule Name
+  {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:WeatherFile,
+  {2a30b0bd-df3d-40f1-b540-d09e05167f87}, !- Handle
+  SEATTLE,                                !- City
+  WA,                                     !- State Province Region
+  USA,                                    !- Country
+  TMY2-24233,                             !- Data Source
+  727930,                                 !- WMO Number
+  47.45,                                  !- Latitude {deg}
+  -122.3,                                 !- Longitude {deg}
+  -8,                                     !- Time Zone {hr}
+  122,                                    !- Elevation {m}
+  USA_WA_Seattle-Tacoma.727930_TMY2.epw,  !- Url
+  F9E1ED0A;                               !- Checksum
 
