@@ -57326,7 +57326,7 @@ OS:SubSurface,
 
 OS:Space,
   {b1fc3ef7-a9c9-4db7-9892-7641d8e3c643}, !- Handle
-  XFMR_401,                               !- Name
+  XFMR_0401,                              !- Name
   {6f8e209e-7f27-4d1c-ae31-62ca238bc240}, !- Space Type Name
   {3c3832ef-62a4-43e0-bb38-fcd44e82303a}, !- Default Construction Set Name
   ,                                       !- Default Schedule Set Name
@@ -59513,7 +59513,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {ac9d1494-e69b-4a96-8846-3cecac233805}, !- Handle
-  Thermal Zone: XFMR_401,                 !- Name
+  Thermal Zone: XFMR_0401,                !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -62156,7 +62156,7 @@ OS:ThermostatSetpoint:DualSetpoint,
   {4dbe8640-a346-4fc1-b06c-3571c4e7fd32}; !- Cooling Setpoint Temperature Schedule Name
 
 OS:WeatherFile,
-  {2a30b0bd-df3d-40f1-b540-d09e05167f87}, !- Handle
+  {5d971db7-93e9-478c-82de-423383271d16}, !- Handle
   SEATTLE,                                !- City
   WA,                                     !- State Province Region
   USA,                                    !- Country
