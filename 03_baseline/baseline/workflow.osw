@@ -1,0 +1,7 @@
+{
+   "created_at" : "20200522T180851Z",
+   "seed_file" : "../baseline.osm",
+   "steps" : [],
+   "updated_at" : "20200522T183122Z",
+   "weather_file" : "USA_WA_Seattle-Tacoma.727930_TMY2.epw"
+}
