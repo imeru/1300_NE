@@ -390,7 +390,7 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 1798 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=27
+Number of general casting surfaces=28
 ..Surface=SURFACE 586
 ..Surface=SURFACE 1855
 ..Surface=SURFACE 1496
@@ -411,9 +411,10 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 1799 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=15
+Number of general casting surfaces=16
 ..Surface=SURFACE 1358
 ..Surface=SURFACE 1800
+..Surface=SURFACE 1657
 ..Surface=SURFACE 1673
 ..Surface=SURFACE 1680
 ..Surface=SURFACE 1686
@@ -421,12 +422,11 @@ Number of general casting surfaces=15
 ..Surface=SURFACE 1851
 ..Surface=SURFACE 557
 ..Surface=SURFACE 630
-..Surface=SURFACE 1036
 Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 1800 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=37
+Number of general casting surfaces=38
 ..Surface=SURFACE 1358
 ..Surface=SURFACE 589
 ..Surface=SURFACE 928
@@ -1848,7 +1848,7 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 290 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=26
+Number of general casting surfaces=27
 ..Surface=SURFACE 1358
 ..Surface=SURFACE 586
 ..Surface=SURFACE 1812
@@ -1909,7 +1909,7 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 329 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=28
+Number of general casting surfaces=29
 ..Surface=SURFACE 1358
 ..Surface=SURFACE 586
 ..Surface=SURFACE 1812
@@ -1954,17 +1954,17 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 1768 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=18
+Number of general casting surfaces=19
 ..Surface=SURFACE 586
 ..Surface=SURFACE 1798
 ..Surface=SURFACE 1800
 ..Surface=SURFACE 1855
 ..Surface=SURFACE 1496
+..Surface=SURFACE 1657
 ..Surface=SURFACE 1673
 ..Surface=SURFACE 1680
 ..Surface=SURFACE 1686
 ..Surface=SURFACE 1862
-..Surface=SURFACE 1851
 Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
@@ -2490,7 +2490,7 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 284 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=22
+Number of general casting surfaces=23
 ..Surface=SURFACE 586
 ..Surface=SURFACE 1812
 ..Surface=SURFACE 1798
@@ -2500,7 +2500,7 @@ Number of general casting surfaces=22
 ..Surface=SURFACE 290
 ..Surface=SURFACE 1791
 ..Surface=SURFACE 1168
-..Surface=SURFACE 1673
+..Surface=SURFACE 1657
 Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
@@ -2535,17 +2535,17 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 312 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=14
+Number of general casting surfaces=15
 ..Surface=SURFACE 1358
 ..Surface=SURFACE 586
 ..Surface=SURFACE 1812
 ..Surface=SURFACE 1800
 ..Surface=SURFACE 1855
+..Surface=SURFACE 1657
 ..Surface=SURFACE 1673
 ..Surface=SURFACE 1680
 ..Surface=SURFACE 1686
 ..Surface=SURFACE 1862
-..Surface=SURFACE 1851
 Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
@@ -2580,7 +2580,7 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 323 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=23
+Number of general casting surfaces=24
 ..Surface=SURFACE 586
 ..Surface=SURFACE 1812
 ..Surface=SURFACE 1798
@@ -2625,17 +2625,17 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 351 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=14
+Number of general casting surfaces=15
 ..Surface=SURFACE 1358
 ..Surface=SURFACE 586
 ..Surface=SURFACE 1812
 ..Surface=SURFACE 1800
 ..Surface=SURFACE 1855
+..Surface=SURFACE 1657
 ..Surface=SURFACE 1673
 ..Surface=SURFACE 1680
 ..Surface=SURFACE 1686
 ..Surface=SURFACE 1862
-..Surface=SURFACE 1851
 Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
@@ -2946,9 +2946,12 @@ Number of general casting surfaces=8
 ..Surface=SURFACE 1849
 ..Surface=SURFACE 53
 Number of back surfaces=0
-Number of receiving sub surfaces=2
+Number of receiving sub surfaces=5
 ....Surface=SUB SURFACE 261
 ....Surface=SUB SURFACE 263
+....Surface=SUB SURFACE 265
+....Surface=SUB SURFACE 326
+....Surface=SUB SURFACE 328
 ==================================
 Surface=SUB SURFACE 261 is not used as Receiving Surface in calculations.
 Number of general casting surfaces=0
@@ -2956,6 +2959,21 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SUB SURFACE 263 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SUB SURFACE 265 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SUB SURFACE 326 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SUB SURFACE 328 is not used as Receiving Surface in calculations.
 Number of general casting surfaces=0
 Number of back surfaces=0
 Number of receiving sub surfaces=0
@@ -2976,8 +2994,9 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 1146 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=3
+Number of general casting surfaces=4
 ..Surface=SURFACE 1743
+..Surface=SURFACE 1657
 ..Surface=SURFACE 1453
 ..Surface=SURFACE 53
 Number of back surfaces=0
@@ -2989,15 +3008,16 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 1148 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=3
+Number of general casting surfaces=4
 ..Surface=SURFACE 1741
+..Surface=SURFACE 1657
 ..Surface=SURFACE 1453
 ..Surface=SURFACE 53
 Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 1149 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=21
+Number of general casting surfaces=22
 ..Surface=SURFACE 1359
 ..Surface=SURFACE 586
 ..Surface=SURFACE 1798
@@ -3012,7 +3032,7 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 1151 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=28
+Number of general casting surfaces=29
 ..Surface=SURFACE 1359
 ..Surface=SURFACE 586
 ..Surface=SURFACE 1798
@@ -3027,7 +3047,7 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 1152 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=21
+Number of general casting surfaces=22
 ..Surface=SURFACE 1359
 ..Surface=SURFACE 586
 ..Surface=SURFACE 1798
@@ -3503,7 +3523,7 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 1741 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=38
+Number of general casting surfaces=39
 ..Surface=SURFACE 1359
 ..Surface=SURFACE 586
 ..Surface=SURFACE 1798
@@ -3768,7 +3788,7 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 1170 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=26
+Number of general casting surfaces=27
 ..Surface=SURFACE 1358
 ..Surface=SURFACE 586
 ..Surface=SURFACE 1855
@@ -3927,17 +3947,17 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 1760 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=19
+Number of general casting surfaces=20
 ..Surface=SURFACE 1359
 ..Surface=SURFACE 586
 ..Surface=SURFACE 1798
 ..Surface=SURFACE 1800
 ..Surface=SURFACE 1855
 ..Surface=SURFACE 1496
+..Surface=SURFACE 1657
 ..Surface=SURFACE 1673
 ..Surface=SURFACE 1680
 ..Surface=SURFACE 1686
-..Surface=SURFACE 1862
 Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
@@ -3952,7 +3972,7 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 1763 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=12
+Number of general casting surfaces=13
 ..Surface=SURFACE 1855
 ..Surface=SURFACE 1149
 ..Surface=SURFACE 1151
@@ -3961,8 +3981,8 @@ Number of general casting surfaces=12
 ..Surface=SURFACE 1741
 ..Surface=SURFACE 47
 ..Surface=SURFACE 1667
+..Surface=SURFACE 1657
 ..Surface=SURFACE 1673
-..Surface=SURFACE 1680
 Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
@@ -4578,7 +4598,7 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 276 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=23
+Number of general casting surfaces=24
 ..Surface=SURFACE 1359
 ..Surface=SURFACE 586
 ..Surface=SURFACE 1812
@@ -4619,7 +4639,7 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 279 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=14
+Number of general casting surfaces=15
 ..Surface=SURFACE 1855
 ..Surface=SURFACE 1161
 ..Surface=SURFACE 1149
@@ -4675,17 +4695,17 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 304 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=13
+Number of general casting surfaces=14
 ..Surface=SURFACE 1358
 ..Surface=SURFACE 586
 ..Surface=SURFACE 1812
 ..Surface=SURFACE 1855
+..Surface=SURFACE 1657
 ..Surface=SURFACE 1673
 ..Surface=SURFACE 1680
 ..Surface=SURFACE 1686
 ..Surface=SURFACE 1862
 ..Surface=SURFACE 1851
-..Surface=SURFACE 557
 Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
@@ -4724,7 +4744,7 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 315 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=24
+Number of general casting surfaces=25
 ..Surface=SURFACE 1359
 ..Surface=SURFACE 586
 ..Surface=SURFACE 1812
@@ -4759,7 +4779,7 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 318 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=14
+Number of general casting surfaces=15
 ..Surface=SURFACE 1855
 ..Surface=SURFACE 1161
 ..Surface=SURFACE 1149
@@ -4815,17 +4835,17 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 343 is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=13
+Number of general casting surfaces=14
 ..Surface=SURFACE 1358
 ..Surface=SURFACE 586
 ..Surface=SURFACE 1812
 ..Surface=SURFACE 1855
+..Surface=SURFACE 1657
 ..Surface=SURFACE 1673
 ..Surface=SURFACE 1680
 ..Surface=SURFACE 1686
 ..Surface=SURFACE 1862
 ..Surface=SURFACE 1851
-..Surface=SURFACE 557
 Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
@@ -9108,17 +9128,7 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=SURFACE 244 is used as Receiving Surface in calculations and is non-convex.
-Number of general casting surfaces=11
-..Surface=SURFACE 1436
-..Surface=SURFACE 1447
-..Surface=SURFACE 1496
-..Surface=SURFACE 1460
-..Surface=SURFACE 1490
-..Surface=SURFACE 1334
-..Surface=SURFACE 1335
-..Surface=SURFACE 1429
-..Surface=SURFACE 1451
-..Surface=SURFACE 1452
+Number of general casting surfaces=0
 Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
