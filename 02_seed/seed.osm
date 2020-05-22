@@ -59208,7 +59208,7 @@ OS:SubSurface,
 OS:BuildingStory,
   {bfda6f9b-348a-42a2-9641-fb545b256c89}, !- Handle
   Building Story 05,                      !- Name
-  14.353032,                              !- Nominal Z Coordinate {m}
+  ,                                       !- Nominal Z Coordinate {m}
   2.9464001016,                           !- Nominal Floor to Floor Height {m}
   ,                                       !- Default Construction Set Name
   ,                                       !- Default Schedule Set Name
