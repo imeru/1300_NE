@@ -6600,7 +6600,7 @@ OS:BuildingStory,
   {2ed2b36f-6f1e-40d5-ad08-a710d082477c}, !- Handle
   Building Story 03,                      !- Name
   8.3058,                                 !- Nominal Z Coordinate {m}
-  2.9464001016,                           !- Nominal Floor to Floor Height {m}
+  2.947416,                               !- Nominal Floor to Floor Height {m}
   ,                                       !- Default Construction Set Name
   ,                                       !- Default Schedule Set Name
   {bf9774e9-5603-46e6-87cc-14b3175db2a5}, !- Group Rendering Name
@@ -25668,7 +25668,7 @@ OS:Surface,
 OS:ThermalZone,
   {1863b9c8-22e2-455b-b683-f8c78fa62cab}, !- Handle
   Thermal Zone: Stor_0400,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -25756,7 +25756,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {adcfbb34-dc19-414a-beb5-fb5ef4805bd8}, !- Handle
   Thermal Zone: Stor_0300,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -25843,7 +25843,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {8721a635-3821-4221-b0f5-cd7f76777079}, !- Handle
   Thermal Zone: Unit_0308,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -25930,7 +25930,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {c3410613-2b12-42b3-9f7c-6d04d280482c}, !- Handle
   Thermal Zone: Elec_0300,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -26105,7 +26105,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {e9498b27-3d4f-49b5-985f-4857d89847e5}, !- Handle
   Thermal Zone: Mech_0300,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -26192,7 +26192,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {b3b3cc22-9237-4ed9-ab93-f2ec076b2748}, !- Handle
   Thermal Zone: Unit_0407_3B,             !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -26279,7 +26279,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {cecdb61f-7803-4bde-8952-3aba92bf5a73}, !- Handle
   Thermal Zone: Elev_0302,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -26366,7 +26366,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {c2d18923-d707-43d9-bb1a-4efab5e16210}, !- Handle
   Thermal Zone: Trash_0300,               !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -26453,7 +26453,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {c2f998f6-c0ca-446c-944f-b23588aff85b}, !- Handle
   Thermal Zone: Unit_0413,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -26602,7 +26602,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {54f99f69-244e-459d-b241-d4c3fbc3b325}, !- Handle
   Thermal Zone: Stair_0301,               !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -26689,7 +26689,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {015144d5-1cb6-4f51-8be3-1276c15ccd17}, !- Handle
   Thermal Zone: Elev_0301,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -26776,7 +26776,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {3707455b-3d97-4d6a-8056-1604c50e8c5f}, !- Handle
   Thermal Zone: Corr_0300,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -26863,7 +26863,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {3922419e-492a-4947-949b-359c40c6eb4f}, !- Handle
   Thermal Zone: Stair_0302,               !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -27012,7 +27012,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {8f698c20-7c34-4f28-8026-e5a04736e3ed}, !- Handle
   Thermal Zone: Trash_0400,               !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -27186,7 +27186,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {395602af-de61-41b1-a738-a8ee56097570}, !- Handle
   Thermal Zone: Unit_0402,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -27273,7 +27273,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {a84d972e-c74b-46f1-be9e-9aee84679a10}, !- Handle
   Thermal Zone: Unit_0311,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -27360,7 +27360,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {daff550e-0b9f-4658-a811-f64c40510301}, !- Handle
   Thermal Zone: Unit_0303,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -27534,7 +27534,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {47ffa17f-62ee-4ced-8b7d-f3d80929e14f}, !- Handle
   Thermal Zone: Unit_0305,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -27621,7 +27621,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {39674698-68df-4f88-a03f-85693ea09bd1}, !- Handle
   Thermal Zone: Unit_0309_2B,             !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -27771,7 +27771,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {abfd763f-4744-4682-bb9e-a787f96b3004}, !- Handle
   Thermal Zone: Mech_0400,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -27858,7 +27858,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {507d880b-f7c3-4ef3-871f-f395d098e626}, !- Handle
   Thermal Zone: Unit_0310,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -27945,7 +27945,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {b33bd510-cc82-471d-82ef-6aa191046c5f}, !- Handle
   Thermal Zone: Amen_0300,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -28032,7 +28032,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {008e8315-5330-4831-9f9c-6295bee27a1d}, !- Handle
   Thermal Zone: Unit_0312,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -28119,7 +28119,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {f9eb2470-ca5a-441d-80ff-75cd4989ac3d}, !- Handle
   Thermal Zone: Unit_0415,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -28206,7 +28206,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {a5b7a506-ecb3-41e9-845c-98668104679e}, !- Handle
   Thermal Zone: Unit_0313,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -28293,7 +28293,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {3898f555-1553-4edb-b9b8-2d0a6ce5d35e}, !- Handle
   Thermal Zone: Unit_0408,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -28467,7 +28467,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {88e3a122-aaba-430c-8c9e-6d87c765a40b}, !- Handle
   Thermal Zone: Unit_0307_3B,             !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -28554,7 +28554,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {37d28581-3f5f-404b-8855-cec730a0cbb2}, !- Handle
   Thermal Zone: Unit_0405,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -28641,7 +28641,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {769ff34f-9d67-4d39-b2b6-2b903bbdf3f8}, !- Handle
   Thermal Zone: Unit_0315,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -28728,7 +28728,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {3fa6926a-b528-46f0-908c-d01cff04690f}, !- Handle
   Thermal Zone: Unit_0306,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -28815,7 +28815,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {9f74ab72-226e-4b4b-96e3-b799c5052ca2}, !- Handle
   Thermal Zone: Unit_0304,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -28902,7 +28902,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {aeb6fda6-98f3-45a3-ad4c-fde294adf5fe}, !- Handle
   Thermal Zone: Unit_0403,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -29051,7 +29051,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {0332a21e-ac04-4992-adde-068bb9de2dc4}, !- Handle
   Thermal Zone: Unit_0302,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -29138,7 +29138,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {7aaa61ff-6fcc-4503-966a-f72cc97e5f23}, !- Handle
   Thermal Zone: Unit_0301_4B,             !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -29287,7 +29287,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {bb421b39-ddb3-469b-be38-7619504ed125}, !- Handle
   Thermal Zone: Unit_0314,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -29374,7 +29374,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {9d290856-c089-4d95-9fe6-e9cb0e91ee4d}, !- Handle
   Thermal Zone: Unit_0316,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -29672,7 +29672,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {f5760840-6f30-484a-a17a-6fb5abf60198}, !- Handle
   Thermal Zone: Unit_0406,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -29846,7 +29846,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {4c80e259-a807-42f2-89df-9ba947a4217e}, !- Handle
   Thermal Zone: Unit_0317_4B,             !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -30082,7 +30082,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {de7a0d67-0e9c-4790-8a9b-1d07abc7ae75}, !- Handle
   Thermal Zone: Stair_0402,               !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -30169,7 +30169,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {a3755fd9-3196-44d5-86b7-e95e7e6243d5}, !- Handle
   Thermal Zone: Unit_0414,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -30256,7 +30256,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {4484bfc6-5ade-4583-979b-b035d4136479}, !- Handle
   Thermal Zone: Unit_0409_2B,             !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -30344,7 +30344,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {7746f5a1-a48d-46d3-bed1-f0a55c81ebb1}, !- Handle
   Thermal Zone: Unit_0410,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -30431,7 +30431,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {de593d04-5357-413d-bb62-9346652c840f}, !- Handle
   Thermal Zone: Elec_0400,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -30581,7 +30581,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {3bbe8841-1391-4074-aeec-18bc7dd3b665}, !- Handle
   Thermal Zone: Unit_0411,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -30755,7 +30755,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {446f2829-d56c-402c-8e27-04ea24fcfd46}, !- Handle
   Thermal Zone: Corr_0400,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -30842,7 +30842,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {3bdafdd4-20db-460d-b323-5080a9587782}, !- Handle
   Thermal Zone: Unit_0417_4B,             !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -30929,7 +30929,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {214cd30f-4d50-4333-b4e8-15d29a76a80c}, !- Handle
   Thermal Zone: Elev_0402,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -31016,7 +31016,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {915c1e5d-8a85-43d4-b210-0d2f01e138b2}, !- Handle
   Thermal Zone: Unit_0412,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -31103,7 +31103,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {fbd9343f-6336-4d25-b054-aacdf0ea1e71}, !- Handle
   Thermal Zone: Stair_0401,               !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -31190,7 +31190,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {6eb9caf7-bdd2-43a0-837d-eaf38e9e4bea}, !- Handle
   Thermal Zone: Unit_0401_4B,             !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -31339,7 +31339,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {fc91d145-b439-45b4-927b-31466728c54c}, !- Handle
   Thermal Zone: Unit_0404,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -31550,7 +31550,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {1cda1f9d-b9df-41ee-8f80-3c64d78539fb}, !- Handle
   Thermal Zone: Elev_0401,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -31724,7 +31724,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {9c53c8a5-c062-4a59-9864-dbf414520b4d}, !- Handle
   Thermal Zone: Unit_0416,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -31811,7 +31811,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {32d5363e-56d3-4777-bae9-9337f1faaad9}, !- Handle
   Thermal Zone: Amen_0400,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -59209,7 +59209,7 @@ OS:BuildingStory,
   {bfda6f9b-348a-42a2-9641-fb545b256c89}, !- Handle
   Building Story 05,                      !- Name
   ,                                       !- Nominal Z Coordinate {m}
-  2.9464001016,                           !- Nominal Floor to Floor Height {m}
+  ,                                       !- Nominal Floor to Floor Height {m}
   ,                                       !- Default Construction Set Name
   ,                                       !- Default Schedule Set Name
   {7e68a600-b1a1-4220-9427-82f3929f367b}, !- Group Rendering Name
@@ -59748,7 +59748,7 @@ OS:ScheduleTypeLimits,
 OS:ThermalZone,
   {ac393d8c-c92b-44f9-8157-b6885848fbf2}, !- Handle
   Thermal Zone: Unit_0501_4B,             !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -59835,7 +59835,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {ac9d1494-e69b-4a96-8846-3cecac233805}, !- Handle
   Thermal Zone: XFMR_0401,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -59922,7 +59922,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {4a58570f-d65c-40f8-bfc1-3d05a6333383}, !- Handle
   Thermal Zone: Stair_0501,               !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -60009,7 +60009,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {611452e5-a5a6-45d8-aaae-92d189e75170}, !- Handle
   Thermal Zone: Unit_0508,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -60096,7 +60096,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {1867077b-1982-4ea0-9d96-f4556987fe01}, !- Handle
   Thermal Zone: Stair_0502,               !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -60183,7 +60183,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {3f3c89c9-a2a2-47a0-8fcb-46695bda94c9}, !- Handle
   Thermal Zone: Unit_0513,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -60270,7 +60270,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {7fd4babb-3d15-4b8f-b1ba-c2057f106e7f}, !- Handle
   Thermal Zone: Elev_0502,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -60357,7 +60357,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {7afad513-cf9d-4065-a971-b888cf244476}, !- Handle
   Thermal Zone: Corr_0500,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -60444,7 +60444,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {263e6c9b-9e6e-4e65-8f3c-c0b8d1de6674}, !- Handle
   Thermal Zone: Unit_0506,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -60531,7 +60531,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {d57aa840-5b08-48fd-a8cc-9d9515e865ca}, !- Handle
   Thermal Zone: Unit_0502,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -60618,7 +60618,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {b4c70e18-f700-45da-a14f-f0ab0579d39c}, !- Handle
   Thermal Zone: Amen_0501,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -60705,7 +60705,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {ed1dde19-b9fa-45f2-a43e-d46a4fb81105}, !- Handle
   Thermal Zone: Unit_0517_4B,             !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -60792,7 +60792,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {37a3aacf-60d8-4586-93e4-8e25b10749a9}, !- Handle
   Thermal Zone: Unit_0504,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -60879,7 +60879,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {19e1cfe7-3433-47e3-bf0c-f49c81187fd3}, !- Handle
   Thermal Zone: Elev_0501,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -60966,7 +60966,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {9fd8a103-5422-4e9a-a5bd-e146ccf2a4ff}, !- Handle
   Thermal Zone: Trash_0500,               !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -61053,7 +61053,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {30f96489-c495-48ca-b0c4-b133b8b56362}, !- Handle
   Thermal Zone: Unit_0505,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -61140,7 +61140,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {e85a302d-1ba3-4343-aca9-c4be9039e067}, !- Handle
   Thermal Zone: Unit_0516,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -61227,7 +61227,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {cb817ceb-6104-4e80-8d62-1af372476d75}, !- Handle
   Thermal Zone: Unit_0507_3B,             !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -61315,7 +61315,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {d57e0090-58a9-4c2f-8b66-bef9be7d1e70}, !- Handle
   Thermal Zone: Stor_0500,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -61402,7 +61402,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {dbdde4cb-39f0-4219-9f42-37bd56b4675f}, !- Handle
   Thermal Zone: Unit_0509_2B,             !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -61490,7 +61490,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {3d92c0cc-11eb-4081-98df-1adfd98d38b6}, !- Handle
   Thermal Zone: Unit_0511,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -61577,7 +61577,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {7c2ddfe8-9c1e-4f48-a11f-02f2386d4d7f}, !- Handle
   Thermal Zone: Unit_0514,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -61664,7 +61664,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {ddfc8b2f-74b0-41a3-b33c-a135d3b976c7}, !- Handle
   Thermal Zone: Unit_0510,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -61751,7 +61751,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {10dcbcd0-9241-4ee9-94ad-cf1fddf97d93}, !- Handle
   Thermal Zone: Mech_0500,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -61838,7 +61838,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {7630514f-662b-4884-928b-1027b26908e3}, !- Handle
   Thermal Zone: Unit_0503,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -61925,7 +61925,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {afebe17e-fcee-45ad-af37-55af855ff2b1}, !- Handle
   Thermal Zone: Unit_0515,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
@@ -62012,7 +62012,7 @@ OS:ZoneHVAC:EquipmentList,
 OS:ThermalZone,
   {9320d506-bf7c-42e1-8ff8-f3929199abf9}, !- Handle
   Thermal Zone: Unit_0512,                !- Name
-  6,                                      !- Multiplier
+  ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
