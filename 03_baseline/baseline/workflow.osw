@@ -1,7 +1,16 @@
 {
-   "created_at" : "20200527T064821Z",
+   "created_at" : "20200527T211829Z",
    "seed_file" : "../baseline.osm",
-   "steps" : [],
-   "updated_at" : "20200527T064830Z",
+   "steps" : 
+   [
+      {
+         "arguments" : {},
+         "description" : "This measure changes the output table to be in IP units.",
+         "measure_dir_name" : "Set Output Table To IP Units",
+         "modeler_description" : "This EnergyPlus measure sets the OutputControl:Table:Style to InchPound.",
+         "name" : "Set Output Table To IP Units"
+      }
+   ],
+   "updated_at" : "20200527T211935Z",
    "weather_file" : "USA_WA_Seattle-Tacoma.727930_TMY2.epw"
 }
