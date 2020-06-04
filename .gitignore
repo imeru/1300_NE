@@ -1,7 +1,24 @@
-# Ignore everything
+### Ignore everything ###
 *
+!02_seed/
+02_seed/*
+~02_seed/*.osm
+
+!03_baseline/
+03_baseline/*
+!03_baseline/*.osm
+
+!04_proposed/
+04_proposed/*
+!04_proposed/*.osm
+
+!add_vrf_and_doas/
+04_proposed/*
+!04_proposed/CSVs
+04_proposed/*.osw
 
 # But not these files...
-!.gitignore
-!*/*.csv
-!*/*.osm
+#!.gitignore
+#!*/*.csv
+#!*/*.osm
+#!*/*.osw
