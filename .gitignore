@@ -1,5 +1,8 @@
 ### Ignore everything ###
 *
+
+!.gitignore
+
 !02_seed/
 02_seed/*
 ~02_seed/*.osm
@@ -13,9 +16,10 @@
 !04_proposed/*.osm
 
 !add_vrf_and_doas/
-04_proposed/*
-!04_proposed/CSVs
-04_proposed/*.osw
+add_vrf_and_doas/*
+!add_vrf_and_doas/CSVs/
+!add_vrf_and_doas/CSVs/*
+!add_vrf_and_doas/*.osw
 
 # But not these files...
 #!.gitignore

@@ -1,0 +1,76 @@
+{
+	"weather_file": "USA_WA_Seattle-Boeing.Field.727935_TMY3.epw",
+	"seed_file": "proposed.osm",
+	"steps": [
+		{
+			"measure_dir_name": "add_vrf_system_to_zones",
+			"arguments": {
+				"file_path": "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones1.csv",
+				"vrf_name": "vrf_zones1",
+				"vrfCondenserType": "AirCooled",
+				"vrfCoolCOP": 4,
+				"vrfHeatCOP":4,
+				"vrfMinOATHPHeat":-4,
+				"vrfDefrost":"Resistive",
+				"vrfHPHeatRecovery":"Yes",
+				"vrfEquivPipingLength":100,
+				"vrfPipingHeight":35
+			}
+		},
+		{
+			"measure_dir_name": "add_vrf_system_to_zones",
+			"arguments": {
+				"file_path": "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones2.csv",
+				"vrf_name": "vrf_zones2",
+				"vrfCondenserType": "AirCooled",
+				"vrfCoolCOP": 4,
+				"vrfHeatCOP":4,
+				"vrfMinOATHPHeat":-4,
+				"vrfDefrost":"Resistive",
+				"vrfHPHeatRecovery":"Yes",
+				"vrfEquivPipingLength":100,
+				"vrfPipingHeight":35
+				}
+		},
+		{
+			"measure_dir_name": "add_vrf_system_to_zones",
+			"arguments": {
+				"file_path": "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones3.csv",
+				"vrf_name": "vrf_zones3",
+				"vrfCondenserType": "AirCooled",
+				"vrfCoolCOP": 4,
+				"vrfHeatCOP":4,
+				"vrfMinOATHPHeat":-4,
+				"vrfDefrost":"Resistive",
+				"vrfHPHeatRecovery":"Yes",
+				"vrfEquivPipingLength":100,
+				"vrfPipingHeight":35
+				}
+		},
+		{
+			"measure_dir_name": "rename_vrf_terminal",
+			"arguments": {}
+		},
+		{
+			"measure_dir_name": "add_doas_erv",
+			"arguments": {
+				"doas_ahu_name":"doas_system",
+				"fan_type":"Variable",
+				"schedule_object":"Always On",
+				"doas_min_supply_air_temp":20,
+				"doas_max_supply_air_temp":90,
+				"doas_supply_fan_sp":4,
+				"doas_supply_fan_eff":0.65,
+				"doas_relief_fan_sp":2.5,
+				"doas_relief_fan_eff":0.65
+			}
+		},
+		{
+			"measure_dir_name": "assign_zones_to_air_loop_from_csv",
+			"arguments": {
+				"file_path":"C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\doas_zones.csv",
+				"default_air_terminal_type":"AirTerminal:SingleDuct:Uncontrolled"
+			}
+		}
+	]
+}
