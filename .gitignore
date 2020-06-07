@@ -1,7 +1,15 @@
 ### Ignore everything ###
 *
 
+# But not these files...
 !.gitignore
+
+!*.csv
+!*.xlsx
+
+#!*/*.csv
+#!*/*.osm
+#!*/*.osw
 
 !02_seed/
 02_seed/*
@@ -20,9 +28,3 @@ add_vrf_and_doas/*
 !add_vrf_and_doas/CSVs/
 !add_vrf_and_doas/CSVs/*
 !add_vrf_and_doas/*.osw
-
-# But not these files...
-#!.gitignore
-#!*/*.csv
-#!*/*.osm
-#!*/*.osw
