@@ -5,8 +5,8 @@
 		{
 			"measure_dir_name": "add_vrf_system_to_zones",
 			"arguments": {
-				"file_path": "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones1.csv",
-				"vrf_name": "vrf_zones1",
+				"file_path": "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_02-1.csv",
+				"vrf_name": "vrf_zones_02-1",
 				"vrfCondenserType": "AirCooled",
 				"vrfCoolCOP": 4,
 				"vrfHeatCOP":4,
@@ -20,8 +20,8 @@
 		{
 			"measure_dir_name": "add_vrf_system_to_zones",
 			"arguments": {
-				"file_path": "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones2.csv",
-				"vrf_name": "vrf_zones2",
+				"file_path": "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_02-2.csv",
+				"vrf_name": "vrf_zones_02-2",
 				"vrfCondenserType": "AirCooled",
 				"vrfCoolCOP": 4,
 				"vrfHeatCOP":4,
@@ -35,8 +35,8 @@
 		{
 			"measure_dir_name": "add_vrf_system_to_zones",
 			"arguments": {
-				"file_path": "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones3.csv",
-				"vrf_name": "vrf_zones3",
+				"file_path": "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_03-1.csv",
+				"vrf_name": "vrf_zones_03-1",
 				"vrfCondenserType": "AirCooled",
 				"vrfCoolCOP": 4,
 				"vrfHeatCOP":4,
@@ -47,6 +47,127 @@
 				"vrfPipingHeight":35
 				}
 		},
+				{
+					"measure_dir_name": "add_vrf_system_to_zones",
+					"arguments": {
+						"file_path": "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_03-2.csv",
+						"vrf_name": "vrf_zones_03-2",
+						"vrfCondenserType": "AirCooled",
+						"vrfCoolCOP": 4,
+						"vrfHeatCOP":4,
+						"vrfMinOATHPHeat":-4,
+						"vrfDefrost":"Resistive",
+						"vrfHPHeatRecovery":"Yes",
+						"vrfEquivPipingLength":100,
+						"vrfPipingHeight":35
+					}
+				},
+				{
+					"measure_dir_name": "add_vrf_system_to_zones",
+					"arguments": {
+						"file_path": "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_04-1.csv",
+						"vrf_name": "vrf_zones_04-1",
+						"vrfCondenserType": "AirCooled",
+						"vrfCoolCOP": 4,
+						"vrfHeatCOP":4,
+						"vrfMinOATHPHeat":-4,
+						"vrfDefrost":"Resistive",
+						"vrfHPHeatRecovery":"Yes",
+						"vrfEquivPipingLength":100,
+						"vrfPipingHeight":35
+					}
+				},
+				{
+					"measure_dir_name": "add_vrf_system_to_zones",
+					"arguments": {
+						"file_path": "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_04-2.csv",
+						"vrf_name": "vrf_zones_04-2",
+						"vrfCondenserType": "AirCooled",
+						"vrfCoolCOP": 4,
+						"vrfHeatCOP":4,
+						"vrfMinOATHPHeat":-4,
+						"vrfDefrost":"Resistive",
+						"vrfHPHeatRecovery":"Yes",
+						"vrfEquivPipingLength":100,
+						"vrfPipingHeight":35
+					}
+				},
+				{
+					"measure_dir_name": "add_vrf_system_to_zones",
+					"arguments": {
+						"file_path": "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_05-1.csv",
+						"vrf_name": "vrf_zones_05-1",
+						"vrfCondenserType": "AirCooled",
+						"vrfCoolCOP": 4,
+						"vrfHeatCOP":4,
+						"vrfMinOATHPHeat":-4,
+						"vrfDefrost":"Resistive",
+						"vrfHPHeatRecovery":"Yes",
+						"vrfEquivPipingLength":100,
+						"vrfPipingHeight":35
+					}
+				},
+				{
+					"measure_dir_name": "add_vrf_system_to_zones",
+					"arguments": {
+						"file_path": "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_05-2.csv",
+						"vrf_name": "vrf_zones_05-2",
+						"vrfCondenserType": "AirCooled",
+						"vrfCoolCOP": 4,
+						"vrfHeatCOP":4,
+						"vrfMinOATHPHeat":-4,
+						"vrfDefrost":"Resistive",
+						"vrfHPHeatRecovery":"Yes",
+						"vrfEquivPipingLength":100,
+						"vrfPipingHeight":35
+					}
+				},
+				{
+					"measure_dir_name": "add_vrf_system_to_zones",
+					"arguments": {
+						"file_path": "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_21-1.csv",
+						"vrf_name": "vrf_zones_21-1",
+						"vrfCondenserType": "AirCooled",
+						"vrfCoolCOP": 4,
+						"vrfHeatCOP":4,
+						"vrfMinOATHPHeat":-4,
+						"vrfDefrost":"Resistive",
+						"vrfHPHeatRecovery":"Yes",
+						"vrfEquivPipingLength":100,
+						"vrfPipingHeight":35
+					}
+				},
+				{
+					"measure_dir_name": "add_vrf_system_to_zones",
+					"arguments": {
+						"file_path": "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_21-2.csv",
+						"vrf_name": "vrf_zones_21-2",
+						"vrfCondenserType": "AirCooled",
+						"vrfCoolCOP": 4,
+						"vrfHeatCOP":4,
+						"vrfMinOATHPHeat":-4,
+						"vrfDefrost":"Resistive",
+						"vrfHPHeatRecovery":"Yes",
+						"vrfEquivPipingLength":100,
+						"vrfPipingHeight":35
+					}
+				},
+				{
+					"measure_dir_name": "add_vrf_system_to_zones",
+					"arguments": {
+						"file_path": "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_22.csv",
+						"vrf_name": "vrf_zones_22",
+						"vrfCondenserType": "AirCooled",
+						"vrfCoolCOP": 4,
+						"vrfHeatCOP":4,
+						"vrfMinOATHPHeat":-4,
+						"vrfDefrost":"Resistive",
+						"vrfHPHeatRecovery":"Yes",
+						"vrfEquivPipingLength":100,
+						"vrfPipingHeight":35
+					}
+				},
+
 		{
 			"measure_dir_name": "rename_vrf_terminal",
 			"arguments": {}
@@ -54,7 +175,7 @@
 		{
 			"measure_dir_name": "add_doas_erv",
 			"arguments": {
-				"doas_ahu_name":"doas_system",
+				"doas_ahu_name":"ERV-CLB03",
 				"fan_type":"Variable",
 				"schedule_object":"Always On",
 				"doas_min_supply_air_temp":20,
@@ -65,12 +186,102 @@
 				"doas_relief_fan_eff":0.65
 			}
 		},
+
 		{
 			"measure_dir_name": "assign_zones_to_air_loop_from_csv",
 			"arguments": {
-				"file_path":"C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\doas_zones.csv",
+				"file_path":"C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\doas_zones_ERV-CLB03.csv",
 				"default_air_terminal_type":"AirTerminal:SingleDuct:Uncontrolled"
 			}
-		}
+		},
+				{
+					"measure_dir_name": "add_doas_erv",
+					"arguments": {
+						"doas_ahu_name":"ERV-CLB05",
+						"fan_type":"Variable",
+						"schedule_object":"Always On",
+						"doas_min_supply_air_temp":20,
+						"doas_max_supply_air_temp":90,
+						"doas_supply_fan_sp":4,
+						"doas_supply_fan_eff":0.65,
+						"doas_relief_fan_sp":2.5,
+						"doas_relief_fan_eff":0.65
+					}
+				},
+
+				{
+					"measure_dir_name": "assign_zones_to_air_loop_from_csv",
+					"arguments": {
+						"file_path":"C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\doas_zones_ERV-CLB05.csv",
+						"default_air_terminal_type":"AirTerminal:SingleDuct:Uncontrolled"
+					}
+				},
+				{
+					"measure_dir_name": "add_doas_erv",
+					"arguments": {
+						"doas_ahu_name":"ERV-FIT",
+						"fan_type":"Variable",
+						"schedule_object":"Always On",
+						"doas_min_supply_air_temp":20,
+						"doas_max_supply_air_temp":90,
+						"doas_supply_fan_sp":4,
+						"doas_supply_fan_eff":0.65,
+						"doas_relief_fan_sp":2.5,
+						"doas_relief_fan_eff":0.65
+					}
+				},
+
+				{
+					"measure_dir_name": "assign_zones_to_air_loop_from_csv",
+					"arguments": {
+						"file_path":"C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\doas_zones_ERV-FIT.csv",
+						"default_air_terminal_type":"AirTerminal:SingleDuct:Uncontrolled"
+					}
+				},
+				{
+					"measure_dir_name": "add_doas_erv",
+					"arguments": {
+						"doas_ahu_name":"ERV-LOB",
+						"fan_type":"Variable",
+						"schedule_object":"Always On",
+						"doas_min_supply_air_temp":20,
+						"doas_max_supply_air_temp":90,
+						"doas_supply_fan_sp":4,
+						"doas_supply_fan_eff":0.65,
+						"doas_relief_fan_sp":2.5,
+						"doas_relief_fan_eff":0.65
+					}
+				},
+
+				{
+					"measure_dir_name": "assign_zones_to_air_loop_from_csv",
+					"arguments": {
+						"file_path":"C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\doas_zones_ERV-LOB.csv",
+						"default_air_terminal_type":"AirTerminal:SingleDuct:Uncontrolled"
+					}
+				},
+				{
+					"measure_dir_name": "add_doas_erv",
+					"arguments": {
+						"doas_ahu_name":"ERV-SKY",
+						"fan_type":"Variable",
+						"schedule_object":"Always On",
+						"doas_min_supply_air_temp":20,
+						"doas_max_supply_air_temp":90,
+						"doas_supply_fan_sp":4,
+						"doas_supply_fan_eff":0.65,
+						"doas_relief_fan_sp":2.5,
+						"doas_relief_fan_eff":0.65
+					}
+				},
+
+				{
+					"measure_dir_name": "assign_zones_to_air_loop_from_csv",
+					"arguments": {
+						"file_path":"C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\doas_zones_ERV-SKY.csv",
+						"default_air_terminal_type":"AirTerminal:SingleDuct:Uncontrolled"
+					}
+				}
+
 	]
 }

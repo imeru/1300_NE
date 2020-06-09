@@ -1,7 +1,7 @@
 {
-   "completed_at" : "20200604T014242Z",
+   "completed_at" : "20200609T191956Z",
    "completed_status" : "Success",
-   "current_step" : 6,
+   "current_step" : 22,
    "file_paths" : 
    [
       "C:/Users/hyunwoo/github/1300_NE_45th/add_vrf_and_doas/generated_files",
@@ -11,15 +11,15 @@
       "../../weather",
       "./"
    ],
-   "hash" : "4DBF393B",
+   "hash" : "257D0284",
    "seed_file" : "proposed.osm",
-   "started_at" : "20200604T014148Z",
+   "started_at" : "20200609T191927Z",
    "steps" : 
    [
       {
          "arguments" : 
          {
-            "file_path" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones1.csv",
+            "file_path" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_02-1.csv",
             "vrfCondenserType" : "AirCooled",
             "vrfCoolCOP" : 4,
             "vrfDefrost" : "Resistive",
@@ -28,12 +28,12 @@
             "vrfHeatCOP" : 4,
             "vrfMinOATHPHeat" : -4,
             "vrfPipingHeight" : 35,
-            "vrf_name" : "vrf_zones1"
+            "vrf_name" : "vrf_zones_02-1"
          },
          "measure_dir_name" : "add_vrf_system_to_zones",
          "result" : 
          {
-            "completed_at" : "20200604T014156Z",
+            "completed_at" : "20200609T191929Z",
             "measure_class_name" : "AddVrfSystemToZones",
             "measure_display_name" : "add_vrf_system_to_zones",
             "measure_name" : "add_vrf_system_to_zones",
@@ -43,12 +43,12 @@
             "measure_version_id" : "48101eba-5d61-4160-a537-f8b8f8b0dc14",
             "measure_version_modified" : "20200518T164746Z",
             "measure_xml_checksum" : "772B7164",
-            "started_at" : "20200604T014148Z",
+            "started_at" : "20200609T191927Z",
             "stderr" : "",
             "stdout" : "",
             "step_errors" : [],
             "step_files" : [],
-            "step_final_condition" : "A VRF system was created and <b>95</b> thermal zones were assigned",
+            "step_final_condition" : "A VRF system was created and <b>15</b> thermal zones were assigned",
             "step_info" : 
             [
                "Click the <b>'Advanced Output'</b> button below for more details about the measure run."
@@ -58,11 +58,11 @@
             [
                {
                   "name" : "file_path",
-                  "value" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones1.csv"
+                  "value" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_02-1.csv"
                },
                {
                   "name" : "vrf_name",
-                  "value" : "vrf_zones1"
+                  "value" : "vrf_zones_02-1"
                },
                {
                   "name" : "vrfCondenserType",
@@ -103,7 +103,7 @@
       {
          "arguments" : 
          {
-            "file_path" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones2.csv",
+            "file_path" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_02-2.csv",
             "vrfCondenserType" : "AirCooled",
             "vrfCoolCOP" : 4,
             "vrfDefrost" : "Resistive",
@@ -112,12 +112,12 @@
             "vrfHeatCOP" : 4,
             "vrfMinOATHPHeat" : -4,
             "vrfPipingHeight" : 35,
-            "vrf_name" : "vrf_zones2"
+            "vrf_name" : "vrf_zones_02-2"
          },
          "measure_dir_name" : "add_vrf_system_to_zones",
          "result" : 
          {
-            "completed_at" : "20200604T014202Z",
+            "completed_at" : "20200609T191930Z",
             "measure_class_name" : "AddVrfSystemToZones",
             "measure_display_name" : "add_vrf_system_to_zones",
             "measure_name" : "add_vrf_system_to_zones",
@@ -127,12 +127,12 @@
             "measure_version_id" : "48101eba-5d61-4160-a537-f8b8f8b0dc14",
             "measure_version_modified" : "20200518T164746Z",
             "measure_xml_checksum" : "772B7164",
-            "started_at" : "20200604T014156Z",
+            "started_at" : "20200609T191929Z",
             "stderr" : "",
             "stdout" : "",
             "step_errors" : [],
             "step_files" : [],
-            "step_final_condition" : "A VRF system was created and <b>53</b> thermal zones were assigned",
+            "step_final_condition" : "A VRF system was created and <b>5</b> thermal zones were assigned",
             "step_info" : 
             [
                "Click the <b>'Advanced Output'</b> button below for more details about the measure run."
@@ -142,11 +142,11 @@
             [
                {
                   "name" : "file_path",
-                  "value" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones2.csv"
+                  "value" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_02-2.csv"
                },
                {
                   "name" : "vrf_name",
-                  "value" : "vrf_zones2"
+                  "value" : "vrf_zones_02-2"
                },
                {
                   "name" : "vrfCondenserType",
@@ -187,7 +187,7 @@
       {
          "arguments" : 
          {
-            "file_path" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones3.csv",
+            "file_path" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_03-1.csv",
             "vrfCondenserType" : "AirCooled",
             "vrfCoolCOP" : 4,
             "vrfDefrost" : "Resistive",
@@ -196,12 +196,12 @@
             "vrfHeatCOP" : 4,
             "vrfMinOATHPHeat" : -4,
             "vrfPipingHeight" : 35,
-            "vrf_name" : "vrf_zones3"
+            "vrf_name" : "vrf_zones_03-1"
          },
          "measure_dir_name" : "add_vrf_system_to_zones",
          "result" : 
          {
-            "completed_at" : "20200604T014207Z",
+            "completed_at" : "20200609T191931Z",
             "measure_class_name" : "AddVrfSystemToZones",
             "measure_display_name" : "add_vrf_system_to_zones",
             "measure_name" : "add_vrf_system_to_zones",
@@ -211,12 +211,12 @@
             "measure_version_id" : "48101eba-5d61-4160-a537-f8b8f8b0dc14",
             "measure_version_modified" : "20200518T164746Z",
             "measure_xml_checksum" : "772B7164",
-            "started_at" : "20200604T014202Z",
+            "started_at" : "20200609T191930Z",
             "stderr" : "",
             "stdout" : "",
             "step_errors" : [],
             "step_files" : [],
-            "step_final_condition" : "A VRF system was created and <b>34</b> thermal zones were assigned",
+            "step_final_condition" : "A VRF system was created and <b>13</b> thermal zones were assigned",
             "step_info" : 
             [
                "Click the <b>'Advanced Output'</b> button below for more details about the measure run."
@@ -226,11 +226,683 @@
             [
                {
                   "name" : "file_path",
-                  "value" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones3.csv"
+                  "value" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_03-1.csv"
                },
                {
                   "name" : "vrf_name",
-                  "value" : "vrf_zones3"
+                  "value" : "vrf_zones_03-1"
+               },
+               {
+                  "name" : "vrfCondenserType",
+                  "value" : "AirCooled"
+               },
+               {
+                  "name" : "vrfCoolCOP",
+                  "value" : 4.0
+               },
+               {
+                  "name" : "vrfHeatCOP",
+                  "value" : 4.0
+               },
+               {
+                  "name" : "vrfMinOATHPHeat",
+                  "value" : -4.0
+               },
+               {
+                  "name" : "vrfDefrost",
+                  "value" : "Resistive"
+               },
+               {
+                  "name" : "vrfHPHeatRecovery",
+                  "value" : "Yes"
+               },
+               {
+                  "name" : "vrfEquivPipingLength",
+                  "value" : 100.0
+               },
+               {
+                  "name" : "vrfPipingHeight",
+                  "value" : 35.0
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "file_path" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_03-2.csv",
+            "vrfCondenserType" : "AirCooled",
+            "vrfCoolCOP" : 4,
+            "vrfDefrost" : "Resistive",
+            "vrfEquivPipingLength" : 100,
+            "vrfHPHeatRecovery" : "Yes",
+            "vrfHeatCOP" : 4,
+            "vrfMinOATHPHeat" : -4,
+            "vrfPipingHeight" : 35,
+            "vrf_name" : "vrf_zones_03-2"
+         },
+         "measure_dir_name" : "add_vrf_system_to_zones",
+         "result" : 
+         {
+            "completed_at" : "20200609T191932Z",
+            "measure_class_name" : "AddVrfSystemToZones",
+            "measure_display_name" : "add_vrf_system_to_zones",
+            "measure_name" : "add_vrf_system_to_zones",
+            "measure_taxonomy" : "HVAC.Distribution",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "802fd0e8-7a13-4e43-b001-bc7ce83b6f37",
+            "measure_version_id" : "48101eba-5d61-4160-a537-f8b8f8b0dc14",
+            "measure_version_modified" : "20200518T164746Z",
+            "measure_xml_checksum" : "772B7164",
+            "started_at" : "20200609T191931Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "A VRF system was created and <b>5</b> thermal zones were assigned",
+            "step_info" : 
+            [
+               "Click the <b>'Advanced Output'</b> button below for more details about the measure run."
+            ],
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "file_path",
+                  "value" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_03-2.csv"
+               },
+               {
+                  "name" : "vrf_name",
+                  "value" : "vrf_zones_03-2"
+               },
+               {
+                  "name" : "vrfCondenserType",
+                  "value" : "AirCooled"
+               },
+               {
+                  "name" : "vrfCoolCOP",
+                  "value" : 4.0
+               },
+               {
+                  "name" : "vrfHeatCOP",
+                  "value" : 4.0
+               },
+               {
+                  "name" : "vrfMinOATHPHeat",
+                  "value" : -4.0
+               },
+               {
+                  "name" : "vrfDefrost",
+                  "value" : "Resistive"
+               },
+               {
+                  "name" : "vrfHPHeatRecovery",
+                  "value" : "Yes"
+               },
+               {
+                  "name" : "vrfEquivPipingLength",
+                  "value" : 100.0
+               },
+               {
+                  "name" : "vrfPipingHeight",
+                  "value" : 35.0
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "file_path" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_04-1.csv",
+            "vrfCondenserType" : "AirCooled",
+            "vrfCoolCOP" : 4,
+            "vrfDefrost" : "Resistive",
+            "vrfEquivPipingLength" : 100,
+            "vrfHPHeatRecovery" : "Yes",
+            "vrfHeatCOP" : 4,
+            "vrfMinOATHPHeat" : -4,
+            "vrfPipingHeight" : 35,
+            "vrf_name" : "vrf_zones_04-1"
+         },
+         "measure_dir_name" : "add_vrf_system_to_zones",
+         "result" : 
+         {
+            "completed_at" : "20200609T191934Z",
+            "measure_class_name" : "AddVrfSystemToZones",
+            "measure_display_name" : "add_vrf_system_to_zones",
+            "measure_name" : "add_vrf_system_to_zones",
+            "measure_taxonomy" : "HVAC.Distribution",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "802fd0e8-7a13-4e43-b001-bc7ce83b6f37",
+            "measure_version_id" : "48101eba-5d61-4160-a537-f8b8f8b0dc14",
+            "measure_version_modified" : "20200518T164746Z",
+            "measure_xml_checksum" : "772B7164",
+            "started_at" : "20200609T191932Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "A VRF system was created and <b>13</b> thermal zones were assigned",
+            "step_info" : 
+            [
+               "Click the <b>'Advanced Output'</b> button below for more details about the measure run."
+            ],
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "file_path",
+                  "value" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_04-1.csv"
+               },
+               {
+                  "name" : "vrf_name",
+                  "value" : "vrf_zones_04-1"
+               },
+               {
+                  "name" : "vrfCondenserType",
+                  "value" : "AirCooled"
+               },
+               {
+                  "name" : "vrfCoolCOP",
+                  "value" : 4.0
+               },
+               {
+                  "name" : "vrfHeatCOP",
+                  "value" : 4.0
+               },
+               {
+                  "name" : "vrfMinOATHPHeat",
+                  "value" : -4.0
+               },
+               {
+                  "name" : "vrfDefrost",
+                  "value" : "Resistive"
+               },
+               {
+                  "name" : "vrfHPHeatRecovery",
+                  "value" : "Yes"
+               },
+               {
+                  "name" : "vrfEquivPipingLength",
+                  "value" : 100.0
+               },
+               {
+                  "name" : "vrfPipingHeight",
+                  "value" : 35.0
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "file_path" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_04-2.csv",
+            "vrfCondenserType" : "AirCooled",
+            "vrfCoolCOP" : 4,
+            "vrfDefrost" : "Resistive",
+            "vrfEquivPipingLength" : 100,
+            "vrfHPHeatRecovery" : "Yes",
+            "vrfHeatCOP" : 4,
+            "vrfMinOATHPHeat" : -4,
+            "vrfPipingHeight" : 35,
+            "vrf_name" : "vrf_zones_04-2"
+         },
+         "measure_dir_name" : "add_vrf_system_to_zones",
+         "result" : 
+         {
+            "completed_at" : "20200609T191934Z",
+            "measure_class_name" : "AddVrfSystemToZones",
+            "measure_display_name" : "add_vrf_system_to_zones",
+            "measure_name" : "add_vrf_system_to_zones",
+            "measure_taxonomy" : "HVAC.Distribution",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "802fd0e8-7a13-4e43-b001-bc7ce83b6f37",
+            "measure_version_id" : "48101eba-5d61-4160-a537-f8b8f8b0dc14",
+            "measure_version_modified" : "20200518T164746Z",
+            "measure_xml_checksum" : "772B7164",
+            "started_at" : "20200609T191934Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "A VRF system was created and <b>6</b> thermal zones were assigned",
+            "step_info" : 
+            [
+               "Click the <b>'Advanced Output'</b> button below for more details about the measure run."
+            ],
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "file_path",
+                  "value" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_04-2.csv"
+               },
+               {
+                  "name" : "vrf_name",
+                  "value" : "vrf_zones_04-2"
+               },
+               {
+                  "name" : "vrfCondenserType",
+                  "value" : "AirCooled"
+               },
+               {
+                  "name" : "vrfCoolCOP",
+                  "value" : 4.0
+               },
+               {
+                  "name" : "vrfHeatCOP",
+                  "value" : 4.0
+               },
+               {
+                  "name" : "vrfMinOATHPHeat",
+                  "value" : -4.0
+               },
+               {
+                  "name" : "vrfDefrost",
+                  "value" : "Resistive"
+               },
+               {
+                  "name" : "vrfHPHeatRecovery",
+                  "value" : "Yes"
+               },
+               {
+                  "name" : "vrfEquivPipingLength",
+                  "value" : 100.0
+               },
+               {
+                  "name" : "vrfPipingHeight",
+                  "value" : 35.0
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "file_path" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_05-1.csv",
+            "vrfCondenserType" : "AirCooled",
+            "vrfCoolCOP" : 4,
+            "vrfDefrost" : "Resistive",
+            "vrfEquivPipingLength" : 100,
+            "vrfHPHeatRecovery" : "Yes",
+            "vrfHeatCOP" : 4,
+            "vrfMinOATHPHeat" : -4,
+            "vrfPipingHeight" : 35,
+            "vrf_name" : "vrf_zones_05-1"
+         },
+         "measure_dir_name" : "add_vrf_system_to_zones",
+         "result" : 
+         {
+            "completed_at" : "20200609T191936Z",
+            "measure_class_name" : "AddVrfSystemToZones",
+            "measure_display_name" : "add_vrf_system_to_zones",
+            "measure_name" : "add_vrf_system_to_zones",
+            "measure_taxonomy" : "HVAC.Distribution",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "802fd0e8-7a13-4e43-b001-bc7ce83b6f37",
+            "measure_version_id" : "48101eba-5d61-4160-a537-f8b8f8b0dc14",
+            "measure_version_modified" : "20200518T164746Z",
+            "measure_xml_checksum" : "772B7164",
+            "started_at" : "20200609T191935Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "A VRF system was created and <b>13</b> thermal zones were assigned",
+            "step_info" : 
+            [
+               "Click the <b>'Advanced Output'</b> button below for more details about the measure run."
+            ],
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "file_path",
+                  "value" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_05-1.csv"
+               },
+               {
+                  "name" : "vrf_name",
+                  "value" : "vrf_zones_05-1"
+               },
+               {
+                  "name" : "vrfCondenserType",
+                  "value" : "AirCooled"
+               },
+               {
+                  "name" : "vrfCoolCOP",
+                  "value" : 4.0
+               },
+               {
+                  "name" : "vrfHeatCOP",
+                  "value" : 4.0
+               },
+               {
+                  "name" : "vrfMinOATHPHeat",
+                  "value" : -4.0
+               },
+               {
+                  "name" : "vrfDefrost",
+                  "value" : "Resistive"
+               },
+               {
+                  "name" : "vrfHPHeatRecovery",
+                  "value" : "Yes"
+               },
+               {
+                  "name" : "vrfEquivPipingLength",
+                  "value" : 100.0
+               },
+               {
+                  "name" : "vrfPipingHeight",
+                  "value" : 35.0
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "file_path" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_05-2.csv",
+            "vrfCondenserType" : "AirCooled",
+            "vrfCoolCOP" : 4,
+            "vrfDefrost" : "Resistive",
+            "vrfEquivPipingLength" : 100,
+            "vrfHPHeatRecovery" : "Yes",
+            "vrfHeatCOP" : 4,
+            "vrfMinOATHPHeat" : -4,
+            "vrfPipingHeight" : 35,
+            "vrf_name" : "vrf_zones_05-2"
+         },
+         "measure_dir_name" : "add_vrf_system_to_zones",
+         "result" : 
+         {
+            "completed_at" : "20200609T191938Z",
+            "measure_class_name" : "AddVrfSystemToZones",
+            "measure_display_name" : "add_vrf_system_to_zones",
+            "measure_name" : "add_vrf_system_to_zones",
+            "measure_taxonomy" : "HVAC.Distribution",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "802fd0e8-7a13-4e43-b001-bc7ce83b6f37",
+            "measure_version_id" : "48101eba-5d61-4160-a537-f8b8f8b0dc14",
+            "measure_version_modified" : "20200518T164746Z",
+            "measure_xml_checksum" : "772B7164",
+            "started_at" : "20200609T191937Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "A VRF system was created and <b>5</b> thermal zones were assigned",
+            "step_info" : 
+            [
+               "Click the <b>'Advanced Output'</b> button below for more details about the measure run."
+            ],
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "file_path",
+                  "value" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_05-2.csv"
+               },
+               {
+                  "name" : "vrf_name",
+                  "value" : "vrf_zones_05-2"
+               },
+               {
+                  "name" : "vrfCondenserType",
+                  "value" : "AirCooled"
+               },
+               {
+                  "name" : "vrfCoolCOP",
+                  "value" : 4.0
+               },
+               {
+                  "name" : "vrfHeatCOP",
+                  "value" : 4.0
+               },
+               {
+                  "name" : "vrfMinOATHPHeat",
+                  "value" : -4.0
+               },
+               {
+                  "name" : "vrfDefrost",
+                  "value" : "Resistive"
+               },
+               {
+                  "name" : "vrfHPHeatRecovery",
+                  "value" : "Yes"
+               },
+               {
+                  "name" : "vrfEquivPipingLength",
+                  "value" : 100.0
+               },
+               {
+                  "name" : "vrfPipingHeight",
+                  "value" : 35.0
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "file_path" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_21-1.csv",
+            "vrfCondenserType" : "AirCooled",
+            "vrfCoolCOP" : 4,
+            "vrfDefrost" : "Resistive",
+            "vrfEquivPipingLength" : 100,
+            "vrfHPHeatRecovery" : "Yes",
+            "vrfHeatCOP" : 4,
+            "vrfMinOATHPHeat" : -4,
+            "vrfPipingHeight" : 35,
+            "vrf_name" : "vrf_zones_21-1"
+         },
+         "measure_dir_name" : "add_vrf_system_to_zones",
+         "result" : 
+         {
+            "completed_at" : "20200609T191940Z",
+            "measure_class_name" : "AddVrfSystemToZones",
+            "measure_display_name" : "add_vrf_system_to_zones",
+            "measure_name" : "add_vrf_system_to_zones",
+            "measure_taxonomy" : "HVAC.Distribution",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "802fd0e8-7a13-4e43-b001-bc7ce83b6f37",
+            "measure_version_id" : "48101eba-5d61-4160-a537-f8b8f8b0dc14",
+            "measure_version_modified" : "20200518T164746Z",
+            "measure_xml_checksum" : "772B7164",
+            "started_at" : "20200609T191938Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "A VRF system was created and <b>13</b> thermal zones were assigned",
+            "step_info" : 
+            [
+               "Click the <b>'Advanced Output'</b> button below for more details about the measure run."
+            ],
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "file_path",
+                  "value" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_21-1.csv"
+               },
+               {
+                  "name" : "vrf_name",
+                  "value" : "vrf_zones_21-1"
+               },
+               {
+                  "name" : "vrfCondenserType",
+                  "value" : "AirCooled"
+               },
+               {
+                  "name" : "vrfCoolCOP",
+                  "value" : 4.0
+               },
+               {
+                  "name" : "vrfHeatCOP",
+                  "value" : 4.0
+               },
+               {
+                  "name" : "vrfMinOATHPHeat",
+                  "value" : -4.0
+               },
+               {
+                  "name" : "vrfDefrost",
+                  "value" : "Resistive"
+               },
+               {
+                  "name" : "vrfHPHeatRecovery",
+                  "value" : "Yes"
+               },
+               {
+                  "name" : "vrfEquivPipingLength",
+                  "value" : 100.0
+               },
+               {
+                  "name" : "vrfPipingHeight",
+                  "value" : 35.0
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "file_path" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_21-2.csv",
+            "vrfCondenserType" : "AirCooled",
+            "vrfCoolCOP" : 4,
+            "vrfDefrost" : "Resistive",
+            "vrfEquivPipingLength" : 100,
+            "vrfHPHeatRecovery" : "Yes",
+            "vrfHeatCOP" : 4,
+            "vrfMinOATHPHeat" : -4,
+            "vrfPipingHeight" : 35,
+            "vrf_name" : "vrf_zones_21-2"
+         },
+         "measure_dir_name" : "add_vrf_system_to_zones",
+         "result" : 
+         {
+            "completed_at" : "20200609T191940Z",
+            "measure_class_name" : "AddVrfSystemToZones",
+            "measure_display_name" : "add_vrf_system_to_zones",
+            "measure_name" : "add_vrf_system_to_zones",
+            "measure_taxonomy" : "HVAC.Distribution",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "802fd0e8-7a13-4e43-b001-bc7ce83b6f37",
+            "measure_version_id" : "48101eba-5d61-4160-a537-f8b8f8b0dc14",
+            "measure_version_modified" : "20200518T164746Z",
+            "measure_xml_checksum" : "772B7164",
+            "started_at" : "20200609T191940Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "A VRF system was created and <b>5</b> thermal zones were assigned",
+            "step_info" : 
+            [
+               "Click the <b>'Advanced Output'</b> button below for more details about the measure run."
+            ],
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "file_path",
+                  "value" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_21-2.csv"
+               },
+               {
+                  "name" : "vrf_name",
+                  "value" : "vrf_zones_21-2"
+               },
+               {
+                  "name" : "vrfCondenserType",
+                  "value" : "AirCooled"
+               },
+               {
+                  "name" : "vrfCoolCOP",
+                  "value" : 4.0
+               },
+               {
+                  "name" : "vrfHeatCOP",
+                  "value" : 4.0
+               },
+               {
+                  "name" : "vrfMinOATHPHeat",
+                  "value" : -4.0
+               },
+               {
+                  "name" : "vrfDefrost",
+                  "value" : "Resistive"
+               },
+               {
+                  "name" : "vrfHPHeatRecovery",
+                  "value" : "Yes"
+               },
+               {
+                  "name" : "vrfEquivPipingLength",
+                  "value" : 100.0
+               },
+               {
+                  "name" : "vrfPipingHeight",
+                  "value" : 35.0
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "file_path" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_22.csv",
+            "vrfCondenserType" : "AirCooled",
+            "vrfCoolCOP" : 4,
+            "vrfDefrost" : "Resistive",
+            "vrfEquivPipingLength" : 100,
+            "vrfHPHeatRecovery" : "Yes",
+            "vrfHeatCOP" : 4,
+            "vrfMinOATHPHeat" : -4,
+            "vrfPipingHeight" : 35,
+            "vrf_name" : "vrf_zones_22"
+         },
+         "measure_dir_name" : "add_vrf_system_to_zones",
+         "result" : 
+         {
+            "completed_at" : "20200609T191941Z",
+            "measure_class_name" : "AddVrfSystemToZones",
+            "measure_display_name" : "add_vrf_system_to_zones",
+            "measure_name" : "add_vrf_system_to_zones",
+            "measure_taxonomy" : "HVAC.Distribution",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "802fd0e8-7a13-4e43-b001-bc7ce83b6f37",
+            "measure_version_id" : "48101eba-5d61-4160-a537-f8b8f8b0dc14",
+            "measure_version_modified" : "20200518T164746Z",
+            "measure_xml_checksum" : "772B7164",
+            "started_at" : "20200609T191941Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "A VRF system was created and <b>5</b> thermal zones were assigned",
+            "step_info" : 
+            [
+               "Click the <b>'Advanced Output'</b> button below for more details about the measure run."
+            ],
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "file_path",
+                  "value" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\vrf_zones_22.csv"
+               },
+               {
+                  "name" : "vrf_name",
+                  "value" : "vrf_zones_22"
                },
                {
                   "name" : "vrfCondenserType",
@@ -273,7 +945,7 @@
          "measure_dir_name" : "rename_vrf_terminal",
          "result" : 
          {
-            "completed_at" : "20200604T014207Z",
+            "completed_at" : "20200609T191942Z",
             "measure_class_name" : "RenameVRFTerminal",
             "measure_display_name" : "Rename VRF Terminal",
             "measure_name" : "rename_vrf_terminal",
@@ -283,198 +955,114 @@
             "measure_version_id" : "181e4f79-2e8f-475e-931d-8e32bb297864",
             "measure_version_modified" : "20170407T145655Z",
             "measure_xml_checksum" : "C49A7DAB",
-            "started_at" : "20200604T014207Z",
+            "started_at" : "20200609T191941Z",
             "stderr" : "",
             "stdout" : "",
             "step_errors" : [],
             "step_files" : [],
-            "step_final_condition" : "The building finished with 182 VRF terminals.",
+            "step_final_condition" : "The building finished with 98 VRF terminals.",
             "step_info" : 
             [
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 1 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Amen_0300",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 2 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Amen_0400",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 3 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Amen_0501",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 4 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Amen_2100",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 5 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Amen_Fitness_2200",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 6 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Amen_SkyLoungeCorridor_2200",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 7 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Amen_SkyLoungeRoom_2200",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 8 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Amen_SkyLoungeRoom_2201",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 9 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Amen_SkyLounge_2200",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 10 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Corr_0100",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 11 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Corr_0200",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 12 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Corr_0300",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 13 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Corr_0400",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 14 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Corr_0500",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 15 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Corr_2100",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 16 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Corr_2300",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 17 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Corr_2301",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 18 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elec_0300",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 19 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elec_0400",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 20 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev Control_2301",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 21 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev Control_2302",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 22 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev Lobby_2300",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 23 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev Lobby_P101",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 24 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev Lobby_P200",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 25 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev_0101",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 26 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev_0102",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 27 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev_0201",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 28 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev_0202",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 29 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev_0301",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 30 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev_0302",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 31 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev_0401",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 32 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev_0402",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 33 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev_0501",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 34 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev_0502",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 35 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev_2101",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 36 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev_2102",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 37 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev_2301",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 38 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev_2302",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 39 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev_2303",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 40 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev_2304",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 41 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev_P101",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 42 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev_P102",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 43 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev_P201",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 44 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Elev_P202",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 45 to VRF Heat Pump - vrf_zones1 - Thermal Zone: FCC_0100",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 46 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Laundry_0100",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 47 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Leasing_0100",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 48 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Lobby_Mail_0100",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 49 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Mech_0200",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 50 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Mech_0300",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 51 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Mech_0400",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 52 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Mech_0500",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 53 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Mech_2100",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 54 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Package_0100",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 55 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Restroom_0100",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 56 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Restroom_2201",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 57 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Restroom_2202",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 58 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Retail Storage_0100",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 59 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Retail_0100",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 60 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stair_0101",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 61 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stair_0102",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 62 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stair_0201",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 63 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stair_0202",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 64 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stair_0301",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 65 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stair_0302",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 66 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stair_0401",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 67 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stair_0402",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 68 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stair_0501",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 69 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stair_0502",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 70 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stair_2101",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 71 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stair_2102",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 72 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stair_2201",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 73 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stair_2202",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 74 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stair_2301",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 75 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stair_2302",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 76 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stair_P101",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 77 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stair_P102",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 78 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stair_P201",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 79 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stair_P202",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 80 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stor_0100",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 81 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stor_0200",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 82 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stor_0300",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 83 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stor_0400",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 84 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stor_0500",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 85 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stor_2100",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 86 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stor_P100",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 87 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Stor_P200",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 88 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Trash_0200",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 89 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Trash_0300",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 90 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Trash_0400",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 91 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Trash_0500",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 92 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Trash_2100",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 93 to VRF Heat Pump - vrf_zones1 - Thermal Zone: Trash_2200",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 94 to VRF Heat Pump - vrf_zones1 - Thermal Zone: XFMR_0201",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 95 to VRF Heat Pump - vrf_zones1 - Thermal Zone: XFMR_0401",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 96 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0201_4B",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 97 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0202",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 98 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0203",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 99 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0204",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 100 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0205",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 101 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0206",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 102 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0207",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 103 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0208",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 104 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0209_3B",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 105 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0210",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 106 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0211_2B",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 107 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0212",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 108 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0213",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 109 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0214",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 110 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0215",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 111 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0216",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 112 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0217",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 113 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0218",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 114 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0219_4B",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 115 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0301_4B",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 116 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0302",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 117 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0303",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 118 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0304",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 119 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0305",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 120 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0306",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 121 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0307_3B",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 122 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0308",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 123 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0309_2B",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 124 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0310",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 125 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0311",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 126 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0312",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 127 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0313",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 128 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0314",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 129 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0315",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 130 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0316",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 131 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0317_4B",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 132 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0401_4B",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 133 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0402",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 134 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0403",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 135 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0404",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 136 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0405",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 137 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0406",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 138 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0407_3B",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 139 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0408",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 140 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0409_2B",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 141 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0410",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 142 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0411",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 143 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0412",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 144 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0413",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 145 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0414",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 146 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0415",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 147 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0416",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 148 to VRF Heat Pump - vrf_zones2 - Thermal Zone: Unit_0417_4B",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 149 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_0501_4B",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 150 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_0502",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 151 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_0503",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 152 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_0504",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 153 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_0505",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 154 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_0506",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 155 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_0507_3B",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 156 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_0508",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 157 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_0509_2B",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 158 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_0510",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 159 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_0511",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 160 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_0512",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 161 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_0513",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 162 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_0514",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 163 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_0515",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 164 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_0516",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 165 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_0517_4B",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 166 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_2101_4B",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 167 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_2102",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 168 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_2103",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 169 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_2104",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 170 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_2105",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 171 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_2106",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 172 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_2107_3B",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 173 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_2108",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 174 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_2109_2B",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 175 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_2110",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 176 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_2111",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 177 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_2112",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 178 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_2113",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 179 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_2114",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 180 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_2115",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 181 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_2116",
-               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 182 to VRF Heat Pump - vrf_zones3 - Thermal Zone: Unit_2117_4B"
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 21 to VRF Heat Pump - vrf_zones_03-1 - Thermal Zone: Unit_0302",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 22 to VRF Heat Pump - vrf_zones_03-1 - Thermal Zone: Unit_0303",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 23 to VRF Heat Pump - vrf_zones_03-1 - Thermal Zone: Unit_0304",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 24 to VRF Heat Pump - vrf_zones_03-1 - Thermal Zone: Unit_0305",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 25 to VRF Heat Pump - vrf_zones_03-1 - Thermal Zone: Unit_0306",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 26 to VRF Heat Pump - vrf_zones_03-1 - Thermal Zone: Unit_0308",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 27 to VRF Heat Pump - vrf_zones_03-1 - Thermal Zone: Unit_0310",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 28 to VRF Heat Pump - vrf_zones_03-1 - Thermal Zone: Unit_0311",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 29 to VRF Heat Pump - vrf_zones_03-1 - Thermal Zone: Unit_0312",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 30 to VRF Heat Pump - vrf_zones_03-1 - Thermal Zone: Unit_0313",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 31 to VRF Heat Pump - vrf_zones_03-1 - Thermal Zone: Unit_0314",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 32 to VRF Heat Pump - vrf_zones_03-1 - Thermal Zone: Unit_0315",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 33 to VRF Heat Pump - vrf_zones_03-1 - Thermal Zone: Unit_0316",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 52 to VRF Heat Pump - vrf_zones_04-2 - Thermal Zone: Amen_0400",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 53 to VRF Heat Pump - vrf_zones_04-2 - Thermal Zone: Unit_0401_4B",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 54 to VRF Heat Pump - vrf_zones_04-2 - Thermal Zone: Unit_0407_3B",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 55 to VRF Heat Pump - vrf_zones_04-2 - Thermal Zone: Unit_0409_2B",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 56 to VRF Heat Pump - vrf_zones_04-2 - Thermal Zone: Unit_0417_4B",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 57 to VRF Heat Pump - vrf_zones_04-2 - Thermal Zone: XFMR_0401",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 1 to VRF Heat Pump - vrf_zones_02-1 - Thermal Zone: Unit_0202",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 2 to VRF Heat Pump - vrf_zones_02-1 - Thermal Zone: Unit_0203",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 3 to VRF Heat Pump - vrf_zones_02-1 - Thermal Zone: Unit_0204",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 4 to VRF Heat Pump - vrf_zones_02-1 - Thermal Zone: Unit_0205",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 5 to VRF Heat Pump - vrf_zones_02-1 - Thermal Zone: Unit_0206",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 6 to VRF Heat Pump - vrf_zones_02-1 - Thermal Zone: Unit_0207",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 7 to VRF Heat Pump - vrf_zones_02-1 - Thermal Zone: Unit_0208",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 8 to VRF Heat Pump - vrf_zones_02-1 - Thermal Zone: Unit_0210",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 9 to VRF Heat Pump - vrf_zones_02-1 - Thermal Zone: Unit_0212",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 10 to VRF Heat Pump - vrf_zones_02-1 - Thermal Zone: Unit_0213",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 11 to VRF Heat Pump - vrf_zones_02-1 - Thermal Zone: Unit_0214",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 12 to VRF Heat Pump - vrf_zones_02-1 - Thermal Zone: Unit_0215",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 13 to VRF Heat Pump - vrf_zones_02-1 - Thermal Zone: Unit_0216",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 14 to VRF Heat Pump - vrf_zones_02-1 - Thermal Zone: Unit_0217",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 15 to VRF Heat Pump - vrf_zones_02-1 - Thermal Zone: Unit_0218",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 16 to VRF Heat Pump - vrf_zones_02-2 - Thermal Zone: Unit_0201_4B",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 17 to VRF Heat Pump - vrf_zones_02-2 - Thermal Zone: Unit_0209_3B",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 18 to VRF Heat Pump - vrf_zones_02-2 - Thermal Zone: Unit_0211_2B",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 19 to VRF Heat Pump - vrf_zones_02-2 - Thermal Zone: Unit_0219_4B",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 20 to VRF Heat Pump - vrf_zones_02-2 - Thermal Zone: XFMR_0201",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 34 to VRF Heat Pump - vrf_zones_03-2 - Thermal Zone: Amen_0300",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 35 to VRF Heat Pump - vrf_zones_03-2 - Thermal Zone: Unit_0301_4B",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 36 to VRF Heat Pump - vrf_zones_03-2 - Thermal Zone: Unit_0307_3B",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 37 to VRF Heat Pump - vrf_zones_03-2 - Thermal Zone: Unit_0309_2B",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 38 to VRF Heat Pump - vrf_zones_03-2 - Thermal Zone: Unit_0317_4B",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 39 to VRF Heat Pump - vrf_zones_04-1 - Thermal Zone: Unit_0402",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 40 to VRF Heat Pump - vrf_zones_04-1 - Thermal Zone: Unit_0403",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 41 to VRF Heat Pump - vrf_zones_04-1 - Thermal Zone: Unit_0404",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 42 to VRF Heat Pump - vrf_zones_04-1 - Thermal Zone: Unit_0405",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 43 to VRF Heat Pump - vrf_zones_04-1 - Thermal Zone: Unit_0406",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 44 to VRF Heat Pump - vrf_zones_04-1 - Thermal Zone: Unit_0408",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 45 to VRF Heat Pump - vrf_zones_04-1 - Thermal Zone: Unit_0410",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 46 to VRF Heat Pump - vrf_zones_04-1 - Thermal Zone: Unit_0411",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 47 to VRF Heat Pump - vrf_zones_04-1 - Thermal Zone: Unit_0412",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 48 to VRF Heat Pump - vrf_zones_04-1 - Thermal Zone: Unit_0413",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 49 to VRF Heat Pump - vrf_zones_04-1 - Thermal Zone: Unit_0414",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 50 to VRF Heat Pump - vrf_zones_04-1 - Thermal Zone: Unit_0415",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 51 to VRF Heat Pump - vrf_zones_04-1 - Thermal Zone: Unit_0416",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 71 to VRF Heat Pump - vrf_zones_05-2 - Thermal Zone: Amen_0501",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 72 to VRF Heat Pump - vrf_zones_05-2 - Thermal Zone: Unit_0501_4B",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 73 to VRF Heat Pump - vrf_zones_05-2 - Thermal Zone: Unit_0507_3B",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 74 to VRF Heat Pump - vrf_zones_05-2 - Thermal Zone: Unit_0509_2B",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 75 to VRF Heat Pump - vrf_zones_05-2 - Thermal Zone: Unit_0517_4B",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 58 to VRF Heat Pump - vrf_zones_05-1 - Thermal Zone: Unit_0502",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 59 to VRF Heat Pump - vrf_zones_05-1 - Thermal Zone: Unit_0503",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 60 to VRF Heat Pump - vrf_zones_05-1 - Thermal Zone: Unit_0504",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 61 to VRF Heat Pump - vrf_zones_05-1 - Thermal Zone: Unit_0505",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 62 to VRF Heat Pump - vrf_zones_05-1 - Thermal Zone: Unit_0506",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 63 to VRF Heat Pump - vrf_zones_05-1 - Thermal Zone: Unit_0508",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 64 to VRF Heat Pump - vrf_zones_05-1 - Thermal Zone: Unit_0510",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 65 to VRF Heat Pump - vrf_zones_05-1 - Thermal Zone: Unit_0511",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 66 to VRF Heat Pump - vrf_zones_05-1 - Thermal Zone: Unit_0512",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 67 to VRF Heat Pump - vrf_zones_05-1 - Thermal Zone: Unit_0513",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 68 to VRF Heat Pump - vrf_zones_05-1 - Thermal Zone: Unit_0514",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 69 to VRF Heat Pump - vrf_zones_05-1 - Thermal Zone: Unit_0515",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 70 to VRF Heat Pump - vrf_zones_05-1 - Thermal Zone: Unit_0516",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 76 to VRF Heat Pump - vrf_zones_21-1 - Thermal Zone: Unit_2102",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 77 to VRF Heat Pump - vrf_zones_21-1 - Thermal Zone: Unit_2103",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 78 to VRF Heat Pump - vrf_zones_21-1 - Thermal Zone: Unit_2104",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 79 to VRF Heat Pump - vrf_zones_21-1 - Thermal Zone: Unit_2105",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 80 to VRF Heat Pump - vrf_zones_21-1 - Thermal Zone: Unit_2106",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 81 to VRF Heat Pump - vrf_zones_21-1 - Thermal Zone: Unit_2108",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 82 to VRF Heat Pump - vrf_zones_21-1 - Thermal Zone: Unit_2110",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 83 to VRF Heat Pump - vrf_zones_21-1 - Thermal Zone: Unit_2111",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 84 to VRF Heat Pump - vrf_zones_21-1 - Thermal Zone: Unit_2112",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 85 to VRF Heat Pump - vrf_zones_21-1 - Thermal Zone: Unit_2113",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 86 to VRF Heat Pump - vrf_zones_21-1 - Thermal Zone: Unit_2114",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 87 to VRF Heat Pump - vrf_zones_21-1 - Thermal Zone: Unit_2115",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 88 to VRF Heat Pump - vrf_zones_21-1 - Thermal Zone: Unit_2116",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 89 to VRF Heat Pump - vrf_zones_21-2 - Thermal Zone: Amen_2100",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 90 to VRF Heat Pump - vrf_zones_21-2 - Thermal Zone: Unit_2101_4B",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 91 to VRF Heat Pump - vrf_zones_21-2 - Thermal Zone: Unit_2107_3B",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 92 to VRF Heat Pump - vrf_zones_21-2 - Thermal Zone: Unit_2109_2B",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 93 to VRF Heat Pump - vrf_zones_21-2 - Thermal Zone: Unit_2117_4B",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 94 to VRF Heat Pump - vrf_zones_22 - Thermal Zone: Amen_Fitness_2200",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 95 to VRF Heat Pump - vrf_zones_22 - Thermal Zone: Amen_SkyLoungeCorridor_2200",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 96 to VRF Heat Pump - vrf_zones_22 - Thermal Zone: Amen_SkyLoungeRoom_2200",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 97 to VRF Heat Pump - vrf_zones_22 - Thermal Zone: Amen_SkyLoungeRoom_2201",
+               "Renamed Zone HVAC Terminal Unit Variable Refrigerant Flow 98 to VRF Heat Pump - vrf_zones_22 - Thermal Zone: Amen_SkyLounge_2200"
             ],
-            "step_initial_condition" : "The building started with 182 VRF terminals.",
+            "step_initial_condition" : "The building started with 98 VRF terminals.",
             "step_result" : "Success",
             "step_values" : [],
             "step_warnings" : []
@@ -483,7 +1071,7 @@
       {
          "arguments" : 
          {
-            "doas_ahu_name" : "doas_system",
+            "doas_ahu_name" : "ERV-CLB03",
             "doas_max_supply_air_temp" : 90,
             "doas_min_supply_air_temp" : 20,
             "doas_relief_fan_eff" : 0.65000000000000002,
@@ -496,7 +1084,7 @@
          "measure_dir_name" : "add_doas_erv",
          "result" : 
          {
-            "completed_at" : "20200604T014208Z",
+            "completed_at" : "20200609T191942Z",
             "measure_class_name" : "AddDoasErv",
             "measure_display_name" : "add_doas_erv",
             "measure_name" : "add_doas_erv",
@@ -506,7 +1094,7 @@
             "measure_version_id" : "acdbadec-036d-4b41-b7b9-2b224a930400",
             "measure_version_modified" : "20200518T182924Z",
             "measure_xml_checksum" : "266557E5",
-            "started_at" : "20200604T014207Z",
+            "started_at" : "20200609T191942Z",
             "stderr" : "",
             "stdout" : "",
             "step_errors" : [],
@@ -521,12 +1109,12 @@
          "arguments" : 
          {
             "default_air_terminal_type" : "AirTerminal:SingleDuct:Uncontrolled",
-            "file_path" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\doas_zones.csv"
+            "file_path" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\doas_zones_ERV-CLB03.csv"
          },
          "measure_dir_name" : "assign_zones_to_air_loop_from_csv",
          "result" : 
          {
-            "completed_at" : "20200604T014220Z",
+            "completed_at" : "20200609T191943Z",
             "measure_class_name" : "AssignZonesToAirLoopFromCSV",
             "measure_display_name" : "Assign Zones to Air Loop from CSV",
             "measure_name" : "assign_zones_to_air_loop_from_csv",
@@ -536,203 +1124,354 @@
             "measure_version_id" : "86411bcb-3611-4f4a-aa4c-54fa90081719",
             "measure_version_modified" : "20200518T162435Z",
             "measure_xml_checksum" : "33A0EF6F",
-            "started_at" : "20200604T014208Z",
+            "started_at" : "20200609T191942Z",
             "stderr" : "",
             "stdout" : "",
             "step_errors" : [],
             "step_files" : [],
             "step_info" : 
             [
-               "Attaching AirTerminal for zone 'Thermal Zone: Amen_0300' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Amen_0400' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Amen_0501' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Amen_2100' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Amen_Fitness_2200' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Amen_SkyLoungeCorridor_2200' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Amen_SkyLoungeRoom_2200' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Amen_SkyLoungeRoom_2201' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Amen_SkyLounge_2200' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Corr_0100' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Corr_0200' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Corr_0300' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Corr_0400' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Corr_0500' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Corr_2100' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Corr_2300' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Corr_2301' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elec_0300' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elec_0400' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev Control_2301' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev Control_2302' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev Lobby_2300' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev Lobby_P101' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev Lobby_P200' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev_0101' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev_0102' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev_0201' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev_0202' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev_0301' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev_0302' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev_0401' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev_0402' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev_0501' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev_0502' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev_2101' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev_2102' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev_2301' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev_2302' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev_2303' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev_2304' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev_P101' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev_P102' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev_P201' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Elev_P202' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: FCC_0100' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Laundry_0100' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Leasing_0100' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Lobby_Mail_0100' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Mech_0200' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Mech_0300' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Mech_0400' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Mech_0500' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Mech_2100' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Package_0100' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Restroom_0100' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Restroom_2201' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Restroom_2202' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Retail Storage_0100' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Retail_0100' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stair_0101' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stair_0102' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stair_0201' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stair_0202' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stair_0301' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stair_0302' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stair_0401' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stair_0402' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stair_0501' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stair_0502' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stair_2101' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stair_2102' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stair_2201' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stair_2202' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stair_2301' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stair_2302' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stair_P101' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stair_P102' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stair_P201' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stair_P202' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stor_0100' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stor_0200' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stor_0300' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stor_0400' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stor_0500' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stor_2100' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stor_P100' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Stor_P200' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Trash_0200' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Trash_0300' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Trash_0400' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Trash_0500' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Trash_2100' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Trash_2200' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0201_4B' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0202' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0203' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0204' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0205' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0206' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0207' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0208' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0209_3B' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0210' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0211_2B' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0212' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0213' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0214' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0215' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0216' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0217' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0218' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0219_4B' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0301_4B' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0302' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0303' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0304' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0305' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0306' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0307_3B' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0308' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0309_2B' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0310' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0311' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0312' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0313' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0314' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0315' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0316' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0317_4B' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0401_4B' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0402' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0403' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0404' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0405' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0406' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0407_3B' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0408' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0409_2B' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0410' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0411' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0412' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0413' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0414' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0415' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0416' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0417_4B' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0501_4B' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0502' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0503' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0504' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0505' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0506' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0507_3B' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0508' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0509_2B' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0510' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0511' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0512' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0513' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0514' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0515' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0516' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_0517_4B' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_2101_4B' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_2102' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_2103' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_2104' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_2105' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_2106' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_2107_3B' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_2108' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_2109_2B' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_2110' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_2111' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_2112' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_2113' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_2114' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_2115' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_2116' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: Unit_2117_4B' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: XFMR_0201' to airloop 'doas_system'",
-               "Attaching AirTerminal for zone 'Thermal Zone: XFMR_0401' to airloop 'doas_system'"
+               "Attaching AirTerminal for zone 'Thermal Zone: Amen_0300' to airloop 'ERV-CLB03'",
+               "Attaching AirTerminal for zone 'Thermal Zone: Amen_0400' to airloop 'ERV-CLB03'"
             ],
-            "step_initial_condition" : "182 zones added to air loops.",
+            "step_initial_condition" : "2 zones added to air loops.",
             "step_result" : "Success",
             "step_values" : 
             [
                {
                   "name" : "file_path",
-                  "value" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\doas_zones.csv"
+                  "value" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\doas_zones_ERV-CLB03.csv"
+               },
+               {
+                  "name" : "default_air_terminal_type",
+                  "value" : "AirTerminal:SingleDuct:Uncontrolled"
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "doas_ahu_name" : "ERV-CLB05",
+            "doas_max_supply_air_temp" : 90,
+            "doas_min_supply_air_temp" : 20,
+            "doas_relief_fan_eff" : 0.65000000000000002,
+            "doas_relief_fan_sp" : 2.5,
+            "doas_supply_fan_eff" : 0.65000000000000002,
+            "doas_supply_fan_sp" : 4,
+            "fan_type" : "Variable",
+            "schedule_object" : "Always On"
+         },
+         "measure_dir_name" : "add_doas_erv",
+         "result" : 
+         {
+            "completed_at" : "20200609T191943Z",
+            "measure_class_name" : "AddDoasErv",
+            "measure_display_name" : "add_doas_erv",
+            "measure_name" : "add_doas_erv",
+            "measure_taxonomy" : "HVAC.Ventilation",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "60b4186e-b291-44b4-aee8-e58e12ff7ff3",
+            "measure_version_id" : "acdbadec-036d-4b41-b7b9-2b224a930400",
+            "measure_version_modified" : "20200518T182924Z",
+            "measure_xml_checksum" : "266557E5",
+            "started_at" : "20200609T191943Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_info" : [],
+            "step_result" : "Success",
+            "step_values" : [],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "default_air_terminal_type" : "AirTerminal:SingleDuct:Uncontrolled",
+            "file_path" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\doas_zones_ERV-CLB05.csv"
+         },
+         "measure_dir_name" : "assign_zones_to_air_loop_from_csv",
+         "result" : 
+         {
+            "completed_at" : "20200609T191943Z",
+            "measure_class_name" : "AssignZonesToAirLoopFromCSV",
+            "measure_display_name" : "Assign Zones to Air Loop from CSV",
+            "measure_name" : "assign_zones_to_air_loop_from_csv",
+            "measure_taxonomy" : "HVAC.Distribution",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "d156658b-747b-4722-aeed-17b856f09d3f",
+            "measure_version_id" : "86411bcb-3611-4f4a-aa4c-54fa90081719",
+            "measure_version_modified" : "20200518T162435Z",
+            "measure_xml_checksum" : "33A0EF6F",
+            "started_at" : "20200609T191943Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_info" : 
+            [
+               "Attaching AirTerminal for zone 'Thermal Zone: Amen_0501' to airloop 'ERV-CLB05'",
+               "Attaching AirTerminal for zone 'Thermal Zone: Amen_2100' to airloop 'ERV-CLB05'"
+            ],
+            "step_initial_condition" : "2 zones added to air loops.",
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "file_path",
+                  "value" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\doas_zones_ERV-CLB05.csv"
+               },
+               {
+                  "name" : "default_air_terminal_type",
+                  "value" : "AirTerminal:SingleDuct:Uncontrolled"
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "doas_ahu_name" : "ERV-FIT",
+            "doas_max_supply_air_temp" : 90,
+            "doas_min_supply_air_temp" : 20,
+            "doas_relief_fan_eff" : 0.65000000000000002,
+            "doas_relief_fan_sp" : 2.5,
+            "doas_supply_fan_eff" : 0.65000000000000002,
+            "doas_supply_fan_sp" : 4,
+            "fan_type" : "Variable",
+            "schedule_object" : "Always On"
+         },
+         "measure_dir_name" : "add_doas_erv",
+         "result" : 
+         {
+            "completed_at" : "20200609T191944Z",
+            "measure_class_name" : "AddDoasErv",
+            "measure_display_name" : "add_doas_erv",
+            "measure_name" : "add_doas_erv",
+            "measure_taxonomy" : "HVAC.Ventilation",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "60b4186e-b291-44b4-aee8-e58e12ff7ff3",
+            "measure_version_id" : "acdbadec-036d-4b41-b7b9-2b224a930400",
+            "measure_version_modified" : "20200518T182924Z",
+            "measure_xml_checksum" : "266557E5",
+            "started_at" : "20200609T191943Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_info" : [],
+            "step_result" : "Success",
+            "step_values" : [],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "default_air_terminal_type" : "AirTerminal:SingleDuct:Uncontrolled",
+            "file_path" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\doas_zones_ERV-FIT.csv"
+         },
+         "measure_dir_name" : "assign_zones_to_air_loop_from_csv",
+         "result" : 
+         {
+            "completed_at" : "20200609T191944Z",
+            "measure_class_name" : "AssignZonesToAirLoopFromCSV",
+            "measure_display_name" : "Assign Zones to Air Loop from CSV",
+            "measure_name" : "assign_zones_to_air_loop_from_csv",
+            "measure_taxonomy" : "HVAC.Distribution",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "d156658b-747b-4722-aeed-17b856f09d3f",
+            "measure_version_id" : "86411bcb-3611-4f4a-aa4c-54fa90081719",
+            "measure_version_modified" : "20200518T162435Z",
+            "measure_xml_checksum" : "33A0EF6F",
+            "started_at" : "20200609T191944Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_info" : 
+            [
+               "Attaching AirTerminal for zone 'Thermal Zone: Amen_Fitness_2200' to airloop 'ERV-FIT'"
+            ],
+            "step_initial_condition" : "1 zones added to air loops.",
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "file_path",
+                  "value" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\doas_zones_ERV-FIT.csv"
+               },
+               {
+                  "name" : "default_air_terminal_type",
+                  "value" : "AirTerminal:SingleDuct:Uncontrolled"
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "doas_ahu_name" : "ERV-LOB",
+            "doas_max_supply_air_temp" : 90,
+            "doas_min_supply_air_temp" : 20,
+            "doas_relief_fan_eff" : 0.65000000000000002,
+            "doas_relief_fan_sp" : 2.5,
+            "doas_supply_fan_eff" : 0.65000000000000002,
+            "doas_supply_fan_sp" : 4,
+            "fan_type" : "Variable",
+            "schedule_object" : "Always On"
+         },
+         "measure_dir_name" : "add_doas_erv",
+         "result" : 
+         {
+            "completed_at" : "20200609T191945Z",
+            "measure_class_name" : "AddDoasErv",
+            "measure_display_name" : "add_doas_erv",
+            "measure_name" : "add_doas_erv",
+            "measure_taxonomy" : "HVAC.Ventilation",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "60b4186e-b291-44b4-aee8-e58e12ff7ff3",
+            "measure_version_id" : "acdbadec-036d-4b41-b7b9-2b224a930400",
+            "measure_version_modified" : "20200518T182924Z",
+            "measure_xml_checksum" : "266557E5",
+            "started_at" : "20200609T191944Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_info" : [],
+            "step_result" : "Success",
+            "step_values" : [],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "default_air_terminal_type" : "AirTerminal:SingleDuct:Uncontrolled",
+            "file_path" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\doas_zones_ERV-LOB.csv"
+         },
+         "measure_dir_name" : "assign_zones_to_air_loop_from_csv",
+         "result" : 
+         {
+            "completed_at" : "20200609T191945Z",
+            "measure_class_name" : "AssignZonesToAirLoopFromCSV",
+            "measure_display_name" : "Assign Zones to Air Loop from CSV",
+            "measure_name" : "assign_zones_to_air_loop_from_csv",
+            "measure_taxonomy" : "HVAC.Distribution",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "d156658b-747b-4722-aeed-17b856f09d3f",
+            "measure_version_id" : "86411bcb-3611-4f4a-aa4c-54fa90081719",
+            "measure_version_modified" : "20200518T162435Z",
+            "measure_xml_checksum" : "33A0EF6F",
+            "started_at" : "20200609T191945Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_info" : 
+            [
+               "Attaching AirTerminal for zone 'Thermal Zone: FCC_0100' to airloop 'ERV-LOB'",
+               "Attaching AirTerminal for zone 'Thermal Zone: Leasing_0100' to airloop 'ERV-LOB'",
+               "Attaching AirTerminal for zone 'Thermal Zone: Lobby_Mail_0100' to airloop 'ERV-LOB'",
+               "Attaching AirTerminal for zone 'Thermal Zone: Package_0100' to airloop 'ERV-LOB'"
+            ],
+            "step_initial_condition" : "4 zones added to air loops.",
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "file_path",
+                  "value" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\doas_zones_ERV-LOB.csv"
+               },
+               {
+                  "name" : "default_air_terminal_type",
+                  "value" : "AirTerminal:SingleDuct:Uncontrolled"
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "doas_ahu_name" : "ERV-SKY",
+            "doas_max_supply_air_temp" : 90,
+            "doas_min_supply_air_temp" : 20,
+            "doas_relief_fan_eff" : 0.65000000000000002,
+            "doas_relief_fan_sp" : 2.5,
+            "doas_supply_fan_eff" : 0.65000000000000002,
+            "doas_supply_fan_sp" : 4,
+            "fan_type" : "Variable",
+            "schedule_object" : "Always On"
+         },
+         "measure_dir_name" : "add_doas_erv",
+         "result" : 
+         {
+            "completed_at" : "20200609T191945Z",
+            "measure_class_name" : "AddDoasErv",
+            "measure_display_name" : "add_doas_erv",
+            "measure_name" : "add_doas_erv",
+            "measure_taxonomy" : "HVAC.Ventilation",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "60b4186e-b291-44b4-aee8-e58e12ff7ff3",
+            "measure_version_id" : "acdbadec-036d-4b41-b7b9-2b224a930400",
+            "measure_version_modified" : "20200518T182924Z",
+            "measure_xml_checksum" : "266557E5",
+            "started_at" : "20200609T191945Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_info" : [],
+            "step_result" : "Success",
+            "step_values" : [],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "default_air_terminal_type" : "AirTerminal:SingleDuct:Uncontrolled",
+            "file_path" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\doas_zones_ERV-SKY.csv"
+         },
+         "measure_dir_name" : "assign_zones_to_air_loop_from_csv",
+         "result" : 
+         {
+            "completed_at" : "20200609T191946Z",
+            "measure_class_name" : "AssignZonesToAirLoopFromCSV",
+            "measure_display_name" : "Assign Zones to Air Loop from CSV",
+            "measure_name" : "assign_zones_to_air_loop_from_csv",
+            "measure_taxonomy" : "HVAC.Distribution",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "d156658b-747b-4722-aeed-17b856f09d3f",
+            "measure_version_id" : "86411bcb-3611-4f4a-aa4c-54fa90081719",
+            "measure_version_modified" : "20200518T162435Z",
+            "measure_xml_checksum" : "33A0EF6F",
+            "started_at" : "20200609T191945Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_info" : 
+            [
+               "Attaching AirTerminal for zone 'Thermal Zone: Amen_SkyLoungeCorridor_2200' to airloop 'ERV-SKY'",
+               "Attaching AirTerminal for zone 'Thermal Zone: Amen_SkyLoungeRoom_2200' to airloop 'ERV-SKY'",
+               "Attaching AirTerminal for zone 'Thermal Zone: Amen_SkyLoungeRoom_2201' to airloop 'ERV-SKY'",
+               "Attaching AirTerminal for zone 'Thermal Zone: Amen_SkyLounge_2200' to airloop 'ERV-SKY'"
+            ],
+            "step_initial_condition" : "4 zones added to air loops.",
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "file_path",
+                  "value" : "C:\\Users\\hyunwoo\\github\\1300_NE_45th\\add_vrf_and_doas\\CSVs\\doas_zones_ERV-SKY.csv"
                },
                {
                   "name" : "default_air_terminal_type",
@@ -743,6 +1482,6 @@
          }
       }
    ],
-   "updated_at" : "20200604T014242Z",
+   "updated_at" : "20200609T191956Z",
    "weather_file" : "USA_WA_Seattle-Boeing.Field.727935_TMY3.epw"
 }
