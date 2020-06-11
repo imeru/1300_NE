@@ -1,30 +1,38 @@
 ### Ignore everything ###
 *
-
+!*/
 # But not these files...
 !.gitignore
-
+!*.osm
 !*.csv
 !*.xlsx
+
+epluszsz.csv
+eplusssz.csv
+*/EP
+
+#!**/*.osm
+#!**/*.csv
+#!**/*.xlsx
 
 #!*/*.csv
 #!*/*.osm
 #!*/*.osw
 
-!02_seed/
-02_seed/*
-~02_seed/*.osm
+#!02_seed/
+#02_seed/*
+#02_seed/*.osm
 
-!03_baseline/
-03_baseline/*
-!03_baseline/*.osm
+#!03_baseline/
+#03_baseline/*
+#!03_baseline/*.osm
 
-!04_proposed/
-04_proposed/*
-!04_proposed/*.osm
+#!04_proposed/
+#04_proposed/*
+#!04_proposed/*.osm
 
-!add_vrf_and_doas/
-add_vrf_and_doas/*
-!add_vrf_and_doas/CSVs/
-!add_vrf_and_doas/CSVs/*
-!add_vrf_and_doas/*.osw
+#!add_vrf_and_doas/
+#add_vrf_and_doas/*
+#!add_vrf_and_doas/CSVs/
+#!add_vrf_and_doas/CSVs/*
+#!add_vrf_and_doas/*.osw
