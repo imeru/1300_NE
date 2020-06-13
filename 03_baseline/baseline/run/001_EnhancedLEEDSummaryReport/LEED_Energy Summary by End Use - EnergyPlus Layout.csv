@@ -1,0 +1,17 @@
+"",Electric Energy Use,Electric Demand,Natural Gas Energy Use,Natural Gas Demand,Additional Fuel Use,Additional Fuel Demand,District Cooling Use,District Cooling Demand,District Heating Use,District Heating Demand
+Heating -- General,310625.0,582116.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Cooling -- General,249352.77,190131.27,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Interior Lighting -- General,211713.88,30601.36,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Exterior Lighting -- Site Lighting,25872.22,6565.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Exterior Lighting -- General,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Interior Equipment -- General,312825.01,68415.18,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Exterior Equipment -- Not Subdivided,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fans -- Ventilation (simple),36711.11,9402.13,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fans -- General,114841.66,37887.86,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pumps -- General,1083.33,241.68,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Heat Rejection -- Not Subdivided,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Humidification -- Not Subdivided,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Heat Recovery -- Not Subdivided,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Water Systems -- General,809408.37,126606.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Refrigeration -- Not Subdivided,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Generators -- General,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

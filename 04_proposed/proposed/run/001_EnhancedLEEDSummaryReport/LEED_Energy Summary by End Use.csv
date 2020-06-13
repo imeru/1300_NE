@@ -1,0 +1,57 @@
+End Use,Energy Type,Units of Annual Energy and Peak Demand,Value
+Interior lighting,Electricity,Consumption (kWh),211713.88
+Interior lighting,Electricity,Demand (kW),30.6
+Exterior lighting,Electricity,Consumption (kWh),0.0
+Exterior lighting,Electricity,Demand (kW),0.0
+Space heating,Natural Gas,Consumption (kBtu),0.0
+Space heating,Natural Gas,Demand (kBtu/h),0.0
+Space cooling,Electricity,Consumption (kWh),280755.55
+Space cooling,Electricity,Demand (kW),183.11
+Pumps,Electricity,Consumption (kWh),1083.33
+Pumps,Electricity,Demand (kW),0.24
+Heat rejection,Electricity,Consumption (kWh),0.0
+Heat rejection,Electricity,Demand (kW),0.0
+Fans - interior ventilation,Electricity,Consumption (kWh),172525.01
+Fans - interior ventilation,Electricity,Demand (kW),20.36
+Fans - parking garage,Electricity,Consumption (kWh),0.0
+Fans - parking garage,Electricity,Demand (kW),0.0
+Service water heating,Natural Gas,Consumption (kBtu),0.0
+Service water heating,Natural Gas,Demand (kBtu/h),0.0
+Receptacle equipment,Electricity,Consumption (kWh),312825.01
+Receptacle equipment,Electricity,Demand (kW),68.42
+IT equipment,Electricity,Consumption (kWh),0.0
+IT equipment,Electricity,Demand (kW),0.0
+Interior lighting - process,Electricity,Consumption (kWh),0.0
+Interior lighting - process,Electricity,Demand (kW),0.0
+Refrigeration equipment,Electricity,Consumption (kWh),0.0
+Refrigeration equipment,Electricity,Demand (kW),0.0
+Fans - Kitchen Ventilation,Electricity,Consumption (kWh),0.0
+Fans - Kitchen Ventilation,Electricity,Demand (kW),0.0
+Cooking,Electricity,Consumption (kWh),0.0
+Cooking,Electricity,Demand (kW),0.0
+Industrial Process,Electricity,Consumption (kWh),0.0
+Industrial Process,Electricity,Demand (kW),0.0
+Elevators and escalators,Electricity,Consumption (kWh),0.0
+Elevators and escalators,Electricity,Demand (kW),0.0
+Heat Pump Supplementary,Electricity,Consumption (kWh),0.0
+Heat Pump Supplementary,Electricity,Demand (kW),0.0
+Space Heating (Electricity),Electricity,Consumption (kWh),67169.44
+Space Heating (Electricity),Electricity,Demand (kW),77.33
+Misc Equipment (Natural Gas),Natural Gas,Consumption (kBtu),0.0
+Misc Equipment (Natural Gas),Natural Gas,Demand (kBtu/h),0.0
+Auxilary (Natural Gas),Natural Gas,Consumption (kBtu),0.0
+Auxilary (Natural Gas),Natural Gas,Demand (kBtu/h),0.0
+Cooling (Natural Gas),Natural Gas,Consumption (kBtu),0.0
+Cooling (Natural Gas),Natural Gas,Demand (kBtu/h),0.0
+Service water heating,Electricity,Consumption (kWh),0.0
+Service water heating,Electricity,Demand (kW),0.0
+Cooking,Natural Gas,Consumption (kBtu),0.0
+Cooking,Natural Gas,Demand (kBtu/h),0.0
+Industrial Process,Natural Gas,Consumption (kBtu),0.0
+Industrial Process,Natural Gas,Demand (kBtu/h),0.0
+Exterior Lighting -- Site Lighting,Electricity,Consumption (kWh),25872.22
+Exterior Lighting -- Site Lighting,Electricity,Demand (kW),6.57
+Fans -- Ventilation (simple),Electricity,Consumption (kWh),5230.56
+Fans -- Ventilation (simple),Electricity,Demand (kW),1.45
+Water Systems -- General,Electricity,Consumption (kWh),295441.66
+Water Systems -- General,Electricity,Demand (kW),46.21
